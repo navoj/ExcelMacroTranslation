@@ -20,11 +20,11 @@ my %Environment =
     Test_Name_For_Processing => "COW", 
     Analysis_Master_Name => "AnalysisMaster_Autoprobe_Prod_20111005",
     Test_Descriptor_Keys_File => "(compute)", 
-    Append => $Append, 
-    Process_Reverse_Sweeps => $Process_Reverse_Sweeps,
-    Print_Graphs => $Print_Graphs, 
-    Print_Graphs_To_File => $Print_Graphs_To_File, 
-    Delete_Summary_Filenames_Sheets => $Delete_Summary_Filename_Sheets,
+    Append => False, 
+    Process_Reverse_Sweeps => True,
+    Print_Graphs => True, 
+    Print_Graphs_To_File => True, 
+    Delete_Summary_Filenames_Sheets => False,
     DEBUG => True;
 
 sub main(%Environment) {
@@ -193,36 +193,99 @@ sub ProcessTFTPrincetonData(%Environment) {
 }
 
 sub setPrintGraphs(%Environment) {
-    say "called Print Graphs";
+    if (%Environment{'DEBUG'} = True) {
+	say "called Print Graphs";
+    }
 }
 
 sub setPrintGraphsToFile(%Environment) {
-    say "called Print Graphs to File";
+    if (%Environment{'DEBUG'} = True) {
+	say "called Print Graphs to File";
+    }
 }
 
 sub ProcessTFTData(%Environment) {
-    say "called Process TFT Data";
+    if (%Environment{'DEBUG'} = True) {
+	say "called Process TFT Data";
+    }
 }
 
 
 sub setDeleteSummaryFilenamesSheets(%Environment) {
-    say "called Delete Summary Filenames Sheets";
+    if (%Environment{'DEBUG'} = True) {
+	say "called Delete Summary Filenames Sheets";
+    }
 }
 
 sub setProcessReverseSweeps(%Environment) {
-    say "called Process Reverse Sweeps";
+    if (%Environment{'DEBUG'} = True) {
+	say "called Process Reverse Sweeps";
+    }
 }
 
 sub setAppendDataToSummary(%Environment) {
-    say "called Append Data to Summary";
+    my $continue = True;
+    my $choice;
+    if ($continue) {
+	$choice = prompt "Append data to summary? (y/n)";
+	if ($choice ~~ ri:i/y|yes) {
+	    say "Setting Append to True";
+	    %Environment{'Append'} = True;
+	    $continue = False;
+	} else {
+	    $continue = False;
+	    say "Setting Append to False";
+	    %Environment{'Append'} = False;
+	}
+    }
+    
+    if (%Environment{'DEBUG'} = True) {
+	say "called Append Data to Summary";
+	say "Append: " ~ %Environment{'Append'};
+    }
 }
 
 sub setPathToLot(%Environment) {
-    say "called setPathToLot";
+    my $continue = True;
+    my $fileName;
+    my $response;
+    if ($continue) {
+	$fileName = prompt "Enter path to lot: ";
+	$response = prompt "Set $fileName as new path to lot? (y/n)";
+	if ($response ~~ ri:i/y|yes/) {
+	    %Environment{'Path_To_Data_File'} = $fileName;
+	    $continue = False;
+	} else {
+	    $contine = True; 
+	}
+    }
+
+    if (%Environment{'DEBUG'} = True) {
+	say "called setPathToLot";
+	say "Path_To_Data_File: " ~ %Environment{'Path_To_Data_File'};
+    }
 }
 
 sub setAnalysisMasterFileName(%Environment) {
-    say "called setAnalysisMasterFileName";
+    my $continue = True;
+    my $fileName;
+    my $response;
+    if ($continue) {
+	$fileName = prompt "Enter analysismaster filename: ";
+	$response = prompt "Set $fileName as new AnalysisMaster filename? (y/n)";
+	if ($response ~~ re:i/y|yes/) {
+	    $continue = False;
+	    %Environment{'Analysis_Master_Name'} = $fileName;
+	} else {
+	    $continue = True; 
+	}
+    }
+    
+    if (%Environment{'DEBUG'} = True) {
+	say "called setAnalysisMasterFileName";
+	say "Analysis_Master_Name: " ~ %Environment{'Analysis_Master_Name'};
+    }
+}
 
 main();
 
