@@ -14,12 +14,12 @@ my $Print_Graphs = 1;
 my $Print_Graphs_To_File = 1;
 my $Delete_Summary_Filename_Sheets = 0;
 my %Environment = 
-    Lot_ID => $Lot_ID, 
-    Wafer_List => @Wafer_List, 
-    Path_To_Data_File => $Path_To_Data_File, 
-    Test_Name_For_Processing => $Test_Name_For_Processing, 
-    Analysis_Master_Name => $Analysis_Master_Name,
-    Test_Descriptor_Keys_File => $Test_Descriptor_Keys_File, 
+    Lot_ID => "E1517-002", 
+    Wafer_List => <"Wafer_11" "Wafer_12">, 
+    Path_To_Data_File => "../", 
+    Test_Name_For_Processing => "COW", 
+    Analysis_Master_Name => "AnalysisMaster_Autoprobe_Prod_20111005",
+    Test_Descriptor_Keys_File => "(compute)", 
     Append => $Append, 
     Process_Reverse_Sweeps => $Process_Reverse_Sweeps,
     Print_Graphs => $Print_Graphs, 
@@ -27,7 +27,7 @@ my %Environment =
     Delete_Summary_Filenames_Sheets => $Delete_Summary_Filename_Sheets,
     DEBUG => True;
 
-sub main() {
+sub main(%Environment) {
     say "Starting...";
     my $myReturn = 1;
     my $myInput = "";
@@ -40,32 +40,40 @@ sub main() {
 	say "Choose Function: ";
 	say "1. Process TFT Autoprobe Data";
 	say "2. Process TFT Princeton Data";
-	say "3. Print Graphs? " ~ $PrintGraphsStatus;
-	say "4. Print Graphs to File? " ~ $PrintGraphsToFileStatus;
-	say "5. Process TFT Data";
-	say "6. Delete Summary & Filenames Sheets";
-	say "7. Process Reverse Sweeps " ~ $ProcessReverseSweeps;
-	say "8. Append Data to Summary " ~ $AppendDataToSummary;
-	say "9. Quit";
+	say "3. Process TFT Data";
+	say "4. Print Graphs? " ~ $PrintGraphsStatus;
+	say "5. Print Graphs to File? " ~ $PrintGraphsToFileStatus;
+	say "6. Delete Summary & Filenames Sheets?" ~ $Delete_Summary_Filename_Sheets; 
+	say "7. Process Reverse Sweeps? " ~ $ProcessReverseSweeps;
+	say "8. Append Data to Summary? " ~ $AppendDataToSummary;
+	say "9. Path To Lot: " ~ $Path_To_Data_File;
+	say "10. Analysis Master File Name: " ~ $Analysis_Master_Name;
+	say "11. Test Descriptor Keys Name: " ~ $Test_Descriptor_Keys_File;
+	say "12. Test Name For Processing: " ~ $Test_Name_For_Processing;
+	say "13. Quit";
 
 	$myInput = get();
 
 	given ($myInput) {
-	    when 1 { $myReturn = &Process_TFT_Autoprobe_Data(%Environment); }
-	    when 2 { $myReturn = &Process_TFT_Princeton_Data(%Environment); }
-	    when 3 { $myReturn = &Print_Graphs(%Environment); }
-	    when 4 { $myReturn = &Print_Graphs_To_File(%Environment); }
-	    when 5 { $myReturn = &Process_TFT_Data(%Environment); }
-	    when 6 { $myReturn = &Delete_Summary_Filenames_Sheets(%Environment); } 
-	    when 7 { $myReturn = &Process_Reverse_Sweeps(%Environment); }
-	    when 8 { $myReturn = &Append_Data_to_Summary(%Environment); }
-	    when 9 { return(0); }
+	    when 1 { $myReturn = &ProcessTFTAutoprobeData(%Environment); }
+	    when 2 { $myReturn = &ProcessTFTPrincetonData(%Environment); }
+	    when 3 { $myReturn = &ProcessTFTData(%Environment); }
+	    when 4 { $myReturn = &setPrintGraphs(%Environment); }
+	    when 5 { $myReturn = &setPrintGraphsToFile(%Environment); }
+	    when 6 { $myReturn = &setDeleteSummaryFilenamesSheets(%Environment); } 
+	    when 7 { $myReturn = &setProcessReverseSweeps(%Environment); }
+	    when 8 { $myReturn = &setAppendDataToSummary(%Environment); }
+	    when 9 { $myReturn = &setPathToLot(%Environment); }
+	    when 10 { $myReturn = &setAnalysisMasterFileName(%Environment); }
+	    when 11 { $myReturn = &setTestDescriptorKeysName(%Environment); }
+	    when 12 { $myReturn = &setTestNameForProcessing(%Environment); }
+	    when 13 { $myReturn = 0; }
 	    default { $myReturn = 1; }
 	}
     }
 }
 
-sub Process_TFT_Autoprobe_Data(%Environment) {
+sub ProcessTFTAutoprobeData(%Environment) {
     my $Lot_ID = %Environment{'Lot_ID'};
     my @WaferList = %Environment{'Wafer_List'};
     my $Path_To_Data_File = %Environment{'Path_To_Data_File'};
@@ -82,9 +90,34 @@ sub Process_TFT_Autoprobe_Data(%Environment) {
     my @SiteList;
     my @uidList;
     my @DeviceList;
+    my $ProcessHysteresis;
+    my $ProcessGate;
 
+
+    %Environment{'Test_Descriptor_Keys_File'} = prompt "Enter Test Descriptor KEys File or \"(compute)\"";
     if (%Environment{'Test_Descriptor_Keys_File'} ~~ /(compute)/) {
 	$UseTestDescriptorKeys = False;
+    } else {
+	if (%Environment{'Test_Descriptor_Keys_File'} ~~ /\s+/) {
+	    say "Invalid Test Descriptor Keys File";
+	    return(1);
+	}
+    }
+
+    # Display current analysis setup
+    say "Current setup: ";
+    say "Path to Lot: " ~ %Environment{'Path_To_Data_File'};
+    say "Analysis Master File: " ~ %Environment{'Analysis_Master_Name'};
+    say "Test Descriptor Keys File: " ~ %Environment{'Test_Descriptor_Keys_File'};
+    say "Test Name For Processing: " ~ %Environment{'Test_Name_For_Processing'};
+    say "Process Reverse Sweeps?: " ~ %Environment{'Process_Reverse_Sweeps'};
+    say "Append Data to Summary?: " ~ %Environment{'Append'};
+    say "Print Graphs?: " ~ %Environment{'Print_Graphs'};
+    say "Print Graphs To File?: " ~ %Environment{'Print_Graphs_To_File'};
+    say "Delete Summary Filenames?: " ~ %Environment{'Delete_Summary_Filenames_Sheets'};
+
+    if ( (my $continue = prompt "Continue?") ~~ re:i/no|n/) {
+	return(1);
     }
 
     if ($UseTestDescriptorKeys == True) {
@@ -153,34 +186,43 @@ sub Process_TFT_Autoprobe_Data(%Environment) {
 
 
 
-sub Process_TFT_Princeton_Data(%Environment) {
-    
-    say "called Process TFT Princeton Data";
+sub ProcessTFTPrincetonData(%Environment) {
+    if (%Environment{'DEBUG'} = True) {
+	say "called Process TFT Princeton Data";
+    }
 }
 
-sub Print_Graphs(%Environment) {
+sub setPrintGraphs(%Environment) {
     say "called Print Graphs";
 }
 
-sub Print_Graphs_To_File(%Environment) {
+sub setPrintGraphsToFile(%Environment) {
     say "called Print Graphs to File";
 }
 
-sub Process_TFT_Data(%Environment) {
+sub ProcessTFTData(%Environment) {
     say "called Process TFT Data";
 }
 
-sub Delete_Summary_Filenames_Sheets(%Environment) {
+
+sub setDeleteSummaryFilenamesSheets(%Environment) {
     say "called Delete Summary Filenames Sheets";
 }
 
-sub Process_Reverse_Sweeps(%Environment) {
+sub setProcessReverseSweeps(%Environment) {
     say "called Process Reverse Sweeps";
 }
 
-sub Append_Data_to_Summary(%Environment) {
+sub setAppendDataToSummary(%Environment) {
     say "called Append Data to Summary";
 }
+
+sub setPathToLot(%Environment) {
+    say "called setPathToLot";
+}
+
+sub setAnalysisMasterFileName(%Environment) {
+    say "called setAnalysisMasterFileName";
 
 main();
 
