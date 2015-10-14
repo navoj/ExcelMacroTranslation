@@ -1,0 +1,1366 @@
+%!PS-Adobe-3.0
+%%Title: SiO2_EXP_AnalysisMaster_Autoprobe_Prod_20100513.xls
+%%Creator: PScript5.dll Version 5.2.2
+%%CreationDate: 10/13/2015 9:47:19
+%%For: jtrujil1
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%Orientation: Landscape
+%%PageOrder: Special
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (QMS ColorScript Laser 1000) (2011.23) 2
+%%LanguageLevel: 2
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 15 15 598 777
+%%ViewingOrientation: 0 1 -1 0
+%%EndDefaults
+
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_ErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if errorname(VMerror)ne{showpage}if initgraphics courier setfont
+lmargin 720 moveto errorname(VMerror)eq{userdict/ehsave known{clear userdict
+/ehsave get restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}{
+(ERROR: )prnt errorname prnt nl(OFFENDING COMMAND: )prnt/command load prnt
+$error/ostack known{nl nl(STACK:)prnt nl nl $error/ostack get aload length{==}
+repeat}if}ifelse systemdict/showpage get exec(%%[ Error: )print errorname
+=print(; OffendingCommand: )print/command load =print( ]%%)= flush}if end end
+end}dup 0 systemdict put dup 4 $brkpage put bind readonly put/currentpacking
+where{pop/setpacking where{pop oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(This job requires more memory than is available in this printer.)100 500
+(Try one or more of the following, and then print again:)100 485
+(For the output format, choose Optimize For Portability.)115 470
+(In the Device Settings page, make sure the Available PostScript Memory is accurate.)
+115 455(Reduce the number of fonts in the document.)115 440
+(Print the document in parts.)115 425 12/Times-Roman showpage
+(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}if}bind def end
+version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg get def}ifelse
+105000 VM?
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+statusdict begin (%%[ ProductName: ) print product print ( ]%%)= flush end
+[ 0 1 -1 0 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+featurebegin{
+%%BeginNonPPDFeature: JobTimeout 0
+0 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/JobTimeout  4 -1 roll put setuserparams}{statusdict/setjobtimeout get exec}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginNonPPDFeature: WaitTimeout 300
+300 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/WaitTimeout 4 -1 roll put setuserparams}{statusdict/waittimeout 3 -1 roll put}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginFeature: *PageSize Letter
+
+    2 dict dup /PageSize [612 792] put dup /ImagingBBox null put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Separations False
+%%IncludeFeature: colorseparation(off)
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Colormodel 2
+%%IncludeFeature: colormodel(cmyk)
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *ColorRenderDict 1
+% Use default CRD
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Collate True
+1 dict dup /Collate true put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *TraySwitch False
+1 dict dup /TraySwitch false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *HalftoneType 4
+/Proofing4Color /Halftone findresource sethalftone
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Resolution 300dpi
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OutputBin Upper
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Duplex None
+
+%%EndFeature
+}featurecleanup
+1 setlinecap 1 setlinejoin
+/mysetup [ 0 72 300 V 72 300 V 0 15.00094 15.00094 ] def 
+%%EndSetup
+
+userdict begin /ehsave save def end
+%%Page: 1 1
+%%PageBoundingBox: 15 15 598 777
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L2 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T 1 1 dtransform abs ~ abs ~ 0 0 3 -1 $ 0 0 6 array astore{PaintData}imagemask
+E}b & mx makepattern setpattern E fEOFill{O}{L}? ;}b
+%%EndResource
+end reinitialize
+N 453 495 M 2820 495 I 2820 1970 I 453 1970 I 453 495 I C 
+0 0 0 1 scol : 453 1847 2367 1 rc N 453 1847 M 2820 1847 I K 
+; : 453 1724 2367 1 rc N 453 1724 M 2820 1724 I K 
+; : 453 1601 2367 1 rc N 453 1601 M 2820 1601 I K 
+; : 453 1478 2367 1 rc N 453 1478 M 2820 1478 I K 
+; : 453 1355 2367 1 rc N 453 1355 M 2820 1355 I K 
+; : 453 1233 2367 1 rc N 453 1233 M 2820 1233 I K 
+; : 453 1110 2367 1 rc N 453 1110 M 2820 1110 I K 
+; : 453 987 2367 1 rc N 453 987 M 2820 987 I K 
+; : 453 864 2367 1 rc N 453 864 M 2820 864 I K 
+; : 453 741 2367 1 rc N 453 741 M 2820 741 I K 
+; : 453 618 2367 1 rc N 453 618 M 2820 618 I K 
+; : 453 495 2367 1 rc N 453 495 M 2820 495 I K 
+; : 749 495 1 1475 rc N 749 495 M 749 1970 I K 
+; : 1045 495 1 1475 rc N 1045 495 M 1045 1970 I K 
+; : 1341 495 1 1475 rc N 1341 495 M 1341 1970 I K 
+; : 1637 495 1 1475 rc N 1637 495 M 1637 1970 I K 
+; : 1932 495 1 1475 rc N 1932 495 M 1932 1970 I K 
+; : 2228 495 1 1475 rc N 2228 495 M 2228 1970 I K 
+; : 2524 495 1 1475 rc N 2524 495 M 2524 1970 I K 
+; : 2820 495 1 1475 rc N 2820 495 M 2820 1970 I K 
+; 0.5 0.5 0.5 1 scol 0 Lj 1 Lc 4 Lw solid N 2820 495 M 453 495 I 453 1970 I 2820 1970 I C 
+: [ 1 0 0 1 162 237 ] concat K 
+; 0 0 0 1 scol 1 Lw solid N 453 495 M 453 1970 I K 
+N 453 1970 M 464 1970 I K 
+N 453 1847 M 464 1847 I K 
+N 453 1724 M 464 1724 I K 
+N 453 1601 M 464 1601 I K 
+N 453 1478 M 464 1478 I K 
+N 453 1355 M 464 1355 I K 
+N 453 1233 M 464 1233 I K 
+N 453 1110 M 464 1110 I K 
+N 453 987 M 464 987 I K 
+N 453 864 M 464 864 I K 
+N 453 741 M 464 741 I K 
+N 453 618 M 464 618 I K 
+N 453 495 M 464 495 I K 
+N 453 1970 M 2820 1970 I K 
+N 453 1970 M 453 1959 I K 
+N 749 1970 M 749 1959 I K 
+N 1045 1970 M 1045 1959 I K 
+N 1341 1970 M 1341 1959 I K 
+N 1637 1970 M 1637 1959 I K 
+N 1932 1970 M 1932 1959 I K 
+N 2228 1970 M 2228 1959 I K 
+N 2524 1970 M 2524 1959 I K 
+N 2820 1970 M 2820 1959 I K 
+0 0 1 1 scol 1 Lj 8 Lw solid : 453 940 13 13 rc N 453 945 M 460 947 I : [ 1 0 0 1 162 237 ] concat K 
+; ; N 460 947 M 468 950 I : [ 1 0 0 1 162 237 ] concat K 
+; N 468 950 M 475 955 I : [ 1 0 0 1 162 237 ] concat K 
+; N 475 955 M 483 961 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 961 M 490 967 I : [ 1 0 0 1 162 237 ] concat K 
+; N 490 967 M 497 972 I : [ 1 0 0 1 162 237 ] concat K 
+; N 497 972 M 505 975 I : [ 1 0 0 1 162 237 ] concat K 
+; N 505 975 M 512 978 I : [ 1 0 0 1 162 237 ] concat K 
+; N 512 978 M 520 979 I : [ 1 0 0 1 162 237 ] concat K 
+; N 520 979 M 527 980 I : [ 1 0 0 1 162 237 ] concat K 
+; N 527 980 M 534 981 I : [ 1 0 0 1 162 237 ] concat K 
+; N 534 981 M 542 982 I : [ 1 0 0 1 162 237 ] concat K 
+; N 542 982 M 549 984 I : [ 1 0 0 1 162 237 ] concat K 
+; N 549 984 M 557 986 I : [ 1 0 0 1 162 237 ] concat K 
+; N 557 986 M 564 990 I : [ 1 0 0 1 162 237 ] concat K 
+; N 564 990 M 571 993 I : [ 1 0 0 1 162 237 ] concat K 
+; N 571 993 M 579 997 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 997 M 586 1000 I : [ 1 0 0 1 162 237 ] concat K 
+; N 586 1000 M 594 1003 I : [ 1 0 0 1 162 237 ] concat K 
+; N 594 1003 M 601 1007 I : [ 1 0 0 1 162 237 ] concat K 
+; N 601 1007 M 608 1011 I : [ 1 0 0 1 162 237 ] concat K 
+; N 608 1011 M 616 1016 I : [ 1 0 0 1 162 237 ] concat K 
+; N 616 1016 M 623 1026 I : [ 1 0 0 1 162 237 ] concat K 
+; N 623 1026 M 631 1042 I : [ 1 0 0 1 162 237 ] concat K 
+; N 631 1042 M 638 1061 I : [ 1 0 0 1 162 237 ] concat K 
+; N 638 1061 M 645 1084 I : [ 1 0 0 1 162 237 ] concat K 
+; N 645 1084 M 653 1106 I : [ 1 0 0 1 162 237 ] concat K 
+; N 653 1106 M 660 1103 I : [ 1 0 0 1 162 237 ] concat K 
+; N 660 1103 M 668 1078 I : [ 1 0 0 1 162 237 ] concat K 
+; N 668 1078 M 675 1058 I : [ 1 0 0 1 162 237 ] concat K 
+; N 675 1058 M 682 1053 I : [ 1 0 0 1 162 237 ] concat K 
+; N 682 1053 M 690 1060 I : [ 1 0 0 1 162 237 ] concat K 
+; N 690 1060 M 697 1072 I : [ 1 0 0 1 162 237 ] concat K 
+; N 697 1072 M 704 1095 I : [ 1 0 0 1 162 237 ] concat K 
+; N 704 1095 M 712 1153 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1153 M 719 1328 I : [ 1 0 0 1 162 237 ] concat K 
+; N 719 1328 M 727 1306 I : [ 1 0 0 1 162 237 ] concat K 
+; N 727 1306 M 734 1292 I : [ 1 0 0 1 162 237 ] concat K 
+; N 734 1292 M 741 1287 I : [ 1 0 0 1 162 237 ] concat K 
+; N 741 1287 M 749 1295 I : [ 1 0 0 1 162 237 ] concat K 
+; N 749 1295 M 756 1315 I : [ 1 0 0 1 162 237 ] concat K 
+; N 756 1315 M 764 1343 I : [ 1 0 0 1 162 237 ] concat K 
+; N 764 1343 M 771 1402 I : [ 1 0 0 1 162 237 ] concat K 
+; N 771 1402 M 778 1641 I : [ 1 0 0 1 162 237 ] concat K 
+; N 778 1641 M 786 1632 I : [ 1 0 0 1 162 237 ] concat K 
+; N 786 1632 M 793 1629 I : [ 1 0 0 1 162 237 ] concat K 
+; N 793 1629 M 801 1633 I : [ 1 0 0 1 162 237 ] concat K 
+; N 801 1633 M 808 1637 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1637 M 815 1632 I : [ 1 0 0 1 162 237 ] concat K 
+; N 815 1632 M 823 1622 I : [ 1 0 0 1 162 237 ] concat K 
+; N 823 1622 M 830 1615 I : [ 1 0 0 1 162 237 ] concat K 
+; N 830 1615 M 838 1609 I : [ 1 0 0 1 162 237 ] concat K 
+; N 838 1609 M 845 1604 I : [ 1 0 0 1 162 237 ] concat K 
+; N 845 1604 M 852 1604 I : [ 1 0 0 1 162 237 ] concat K 
+; N 852 1604 M 860 1593 I : [ 1 0 0 1 162 237 ] concat K 
+; N 860 1593 M 867 1572 I : [ 1 0 0 1 162 237 ] concat K 
+; N 867 1572 M 875 1557 I : [ 1 0 0 1 162 237 ] concat K 
+; N 875 1557 M 882 1545 I : [ 1 0 0 1 162 237 ] concat K 
+; N 882 1545 M 889 1535 I : [ 1 0 0 1 162 237 ] concat K 
+; N 889 1535 M 897 1532 I : [ 1 0 0 1 162 237 ] concat K 
+; N 897 1532 M 904 1516 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1516 M 912 1494 I : [ 1 0 0 1 162 237 ] concat K 
+; N 912 1494 M 919 1471 I : [ 1 0 0 1 162 237 ] concat K 
+; N 919 1471 M 926 1450 I : [ 1 0 0 1 162 237 ] concat K 
+; N 926 1450 M 934 1435 I : [ 1 0 0 1 162 237 ] concat K 
+; N 934 1435 M 941 1426 I : [ 1 0 0 1 162 237 ] concat K 
+; N 941 1426 M 949 1422 I : [ 1 0 0 1 162 237 ] concat K 
+; N 949 1422 M 956 1423 I : [ 1 0 0 1 162 237 ] concat K 
+; N 956 1423 M 963 1425 I : [ 1 0 0 1 162 237 ] concat K 
+; N 963 1425 M 971 1426 I : [ 1 0 0 1 162 237 ] concat K 
+; N 971 1426 M 978 1421 I : [ 1 0 0 1 162 237 ] concat K 
+; N 978 1421 M 986 1411 I : [ 1 0 0 1 162 237 ] concat K 
+; N 986 1411 M 993 1401 I : [ 1 0 0 1 162 237 ] concat K 
+; N 993 1401 M 1000 1392 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1392 M 1008 1386 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1008 1386 M 1015 1384 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1015 1384 M 1023 1384 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1023 1384 M 1030 1386 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1030 1386 M 1037 1388 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1037 1388 M 1045 1389 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1045 1389 M 1052 1389 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1052 1389 M 1060 1389 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1060 1389 M 1067 1389 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1067 1389 M 1074 1390 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1074 1390 M 1082 1391 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1082 1391 M 1089 1391 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1089 1391 M 1097 1390 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1390 M 1104 1386 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1104 1386 M 1111 1383 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1111 1383 M 1119 1381 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1119 1381 M 1126 1383 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1126 1383 M 1134 1394 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1134 1394 M 1141 1408 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1141 1408 M 1148 1424 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1148 1424 M 1156 1447 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1156 1447 M 1163 1467 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1163 1467 M 1170 1469 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1170 1469 M 1178 1477 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1178 1477 M 1185 1496 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1185 1496 M 1193 1513 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1513 M 1200 1524 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1200 1524 M 1207 1535 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1207 1535 M 1215 1548 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1215 1548 M 1222 1561 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1222 1561 M 1230 1573 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1230 1573 M 1237 1586 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1237 1586 M 1244 1599 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1244 1599 M 1252 1610 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1252 1610 M 1259 1618 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1259 1618 M 1267 1625 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1267 1625 M 1274 1630 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1274 1630 M 1281 1635 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1281 1635 M 1289 1638 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1638 M 1296 1642 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1296 1642 M 1304 1646 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1304 1646 M 1311 1649 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1311 1649 M 1318 1652 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1318 1652 M 1326 1655 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1326 1655 M 1333 1659 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1333 1659 M 1341 1662 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1341 1662 M 1348 1665 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1348 1665 M 1355 1666 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1355 1666 M 1363 1666 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1363 1666 M 1370 1667 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1370 1667 M 1378 1667 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1378 1667 M 1385 1667 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1667 M 1392 1669 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1392 1669 M 1400 1672 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1400 1672 M 1407 1674 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1407 1674 M 1415 1679 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1415 1679 M 1422 1685 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1422 1685 M 1429 1692 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1429 1692 M 1437 1699 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1437 1699 M 1444 1707 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1444 1707 M 1452 1718 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1452 1718 M 1459 1734 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1459 1734 M 1466 1756 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1466 1756 M 1474 1793 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1474 1793 M 1481 1937 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1881 1833 M 1888 1709 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1888 1709 M 1895 1586 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1895 1586 M 1903 1533 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 1533 M 1910 1458 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1910 1458 M 1918 1413 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1918 1413 M 1925 1353 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1925 1353 M 1932 1312 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1932 1312 M 1940 1266 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1940 1266 M 1947 1231 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1947 1231 M 1955 1196 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1955 1196 M 1962 1167 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1962 1167 M 1969 1139 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1969 1139 M 1977 1115 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1977 1115 M 1984 1092 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1984 1092 M 1992 1072 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1992 1072 M 1999 1053 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 1053 M 2006 1036 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2006 1036 M 2014 1020 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2014 1020 M 2021 1005 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2021 1005 M 2029 991 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2029 991 M 2036 978 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2036 978 M 2043 966 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2043 966 M 2051 955 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2051 955 M 2058 944 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2058 944 M 2066 934 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2066 934 M 2073 924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2073 924 M 2080 915 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2080 915 M 2088 906 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2088 906 M 2095 898 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 898 M 2103 891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2103 891 M 2110 883 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2110 883 M 2117 877 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2117 877 M 2125 870 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2125 870 M 2132 864 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2132 864 M 2139 858 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2139 858 M 2147 852 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2147 852 M 2154 847 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2154 847 M 2162 842 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2162 842 M 2169 837 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2169 837 M 2176 832 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2176 832 M 2184 828 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2184 828 M 2191 824 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 824 M 2199 820 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2199 820 M 2206 816 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2206 816 M 2213 812 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2213 812 M 2221 809 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2221 809 M 2228 805 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2228 805 M 2236 802 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2236 802 M 2243 799 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2243 799 M 2250 796 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2250 796 M 2258 794 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2258 794 M 2265 791 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2265 791 M 2273 788 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2273 788 M 2280 786 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2280 786 M 2287 783 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2287 783 M 2295 781 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2295 781 M 2302 779 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2302 779 M 2310 776 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2310 776 M 2317 774 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2317 774 M 2324 772 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 772 M 2332 770 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2332 770 M 2339 768 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2339 768 M 2347 766 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2347 766 M 2354 765 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2354 765 M 2361 763 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2361 763 M 2369 761 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2369 761 M 2376 759 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2376 759 M 2384 758 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 758 M 2391 756 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2391 756 M 2398 755 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2398 755 M 2406 753 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2406 753 M 2413 752 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2413 752 M 2421 750 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2421 750 M 2428 749 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2428 749 M 2435 747 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2435 747 M 2443 746 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2443 746 M 2450 745 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2450 745 M 2458 743 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2458 743 M 2465 742 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2465 742 M 2472 741 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2472 741 M 2480 740 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 740 M 2487 738 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2487 738 M 2495 737 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2495 737 M 2502 736 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2502 736 M 2509 735 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2509 735 M 2517 734 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2517 734 M 2524 733 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2524 733 M 2532 732 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2532 732 M 2539 731 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2539 731 M 2546 730 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2546 730 M 2554 729 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2554 729 M 2561 728 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2561 728 M 2569 727 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2569 727 M 2576 726 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 726 M 2583 725 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2583 725 M 2591 724 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2591 724 M 2598 723 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2598 723 M 2605 722 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2605 722 M 2613 721 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2613 721 M 2620 720 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2620 720 M 2628 719 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2628 719 M 2635 718 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2635 718 M 2642 717 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2642 717 M 2650 717 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2650 717 M 2657 716 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2657 716 M 2665 715 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2665 715 M 2672 714 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2672 714 M 2679 713 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2679 713 M 2687 712 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2687 712 M 2694 712 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2694 712 M 2702 711 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2702 711 M 2709 710 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 710 M 2716 709 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2716 709 M 2724 709 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2724 709 M 2731 708 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2731 708 M 2739 707 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2739 707 M 2746 707 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2746 707 M 2753 706 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2753 706 M 2761 705 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2761 705 M 2768 704 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2768 704 M 2776 704 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2776 704 M 2783 703 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2783 703 M 2790 702 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2790 702 M 2798 702 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2798 702 M 2805 701 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 701 M 2813 701 I : [ 1 0 0 1 162 237 ] concat K 
+; : 2808 695 13 12 rc N 2813 701 M 2820 700 I : [ 1 0 0 1 162 237 ] concat K 
+; ; : 453 880 13 14 rc N 453 885 M 460 888 I : [ 1 0 0 1 162 237 ] concat K 
+; ; N 460 888 M 468 890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 468 890 M 475 895 I : [ 1 0 0 1 162 237 ] concat K 
+; N 475 895 M 483 898 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 898 M 490 899 I : [ 1 0 0 1 162 237 ] concat K 
+; N 490 899 M 497 900 I : [ 1 0 0 1 162 237 ] concat K 
+; N 497 900 M 505 901 I : [ 1 0 0 1 162 237 ] concat K 
+; N 505 901 M 512 902 I : [ 1 0 0 1 162 237 ] concat K 
+; N 512 902 M 520 903 I : [ 1 0 0 1 162 237 ] concat K 
+; N 520 903 M 527 905 I : [ 1 0 0 1 162 237 ] concat K 
+; N 527 905 M 534 906 I : [ 1 0 0 1 162 237 ] concat K 
+; N 534 906 M 542 908 I : [ 1 0 0 1 162 237 ] concat K 
+; N 542 908 M 549 909 I : [ 1 0 0 1 162 237 ] concat K 
+; N 549 909 M 557 910 I : [ 1 0 0 1 162 237 ] concat K 
+; N 557 910 M 564 911 I : [ 1 0 0 1 162 237 ] concat K 
+; N 564 911 M 571 912 I : [ 1 0 0 1 162 237 ] concat K 
+; N 571 912 M 579 913 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 913 M 586 914 I : [ 1 0 0 1 162 237 ] concat K 
+; N 586 914 M 594 915 I : [ 1 0 0 1 162 237 ] concat K 
+; N 594 915 M 601 917 I : [ 1 0 0 1 162 237 ] concat K 
+; N 601 917 M 608 918 I : [ 1 0 0 1 162 237 ] concat K 
+; N 608 918 M 616 920 I : [ 1 0 0 1 162 237 ] concat K 
+; N 616 920 M 623 921 I : [ 1 0 0 1 162 237 ] concat K 
+; N 623 921 M 631 923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 631 923 M 638 925 I : [ 1 0 0 1 162 237 ] concat K 
+; N 638 925 M 645 926 I : [ 1 0 0 1 162 237 ] concat K 
+; N 645 926 M 653 928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 653 928 M 660 931 I : [ 1 0 0 1 162 237 ] concat K 
+; N 660 931 M 668 933 I : [ 1 0 0 1 162 237 ] concat K 
+; N 668 933 M 675 933 I : [ 1 0 0 1 162 237 ] concat K 
+; N 675 933 M 682 934 I : [ 1 0 0 1 162 237 ] concat K 
+; N 682 934 M 690 934 I : [ 1 0 0 1 162 237 ] concat K 
+; N 690 934 M 697 934 I : [ 1 0 0 1 162 237 ] concat K 
+; N 697 934 M 704 934 I : [ 1 0 0 1 162 237 ] concat K 
+; N 704 934 M 712 936 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 936 M 719 938 I : [ 1 0 0 1 162 237 ] concat K 
+; N 719 938 M 727 939 I : [ 1 0 0 1 162 237 ] concat K 
+; N 727 939 M 734 940 I : [ 1 0 0 1 162 237 ] concat K 
+; N 734 940 M 741 941 I : [ 1 0 0 1 162 237 ] concat K 
+; N 741 941 M 749 942 I : [ 1 0 0 1 162 237 ] concat K 
+; N 749 942 M 756 945 I : [ 1 0 0 1 162 237 ] concat K 
+; N 756 945 M 764 950 I : [ 1 0 0 1 162 237 ] concat K 
+; N 764 950 M 771 954 I : [ 1 0 0 1 162 237 ] concat K 
+; N 771 954 M 778 958 I : [ 1 0 0 1 162 237 ] concat K 
+; N 778 958 M 786 967 I : [ 1 0 0 1 162 237 ] concat K 
+; N 786 967 M 793 982 I : [ 1 0 0 1 162 237 ] concat K 
+; N 793 982 M 801 998 I : [ 1 0 0 1 162 237 ] concat K 
+; N 801 998 M 808 1024 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1024 M 815 1083 I : [ 1 0 0 1 162 237 ] concat K 
+; N 815 1083 M 823 1390 I : [ 1 0 0 1 162 237 ] concat K 
+; N 823 1390 M 830 1405 I : [ 1 0 0 1 162 237 ] concat K 
+; N 830 1405 M 838 1412 I : [ 1 0 0 1 162 237 ] concat K 
+; N 838 1412 M 845 1411 I : [ 1 0 0 1 162 237 ] concat K 
+; N 845 1411 M 852 1411 I : [ 1 0 0 1 162 237 ] concat K 
+; N 852 1411 M 860 1412 I : [ 1 0 0 1 162 237 ] concat K 
+; N 860 1412 M 867 1418 I : [ 1 0 0 1 162 237 ] concat K 
+; N 867 1418 M 875 1426 I : [ 1 0 0 1 162 237 ] concat K 
+; N 875 1426 M 882 1432 I : [ 1 0 0 1 162 237 ] concat K 
+; N 882 1432 M 889 1436 I : [ 1 0 0 1 162 237 ] concat K 
+; N 889 1436 M 897 1437 I : [ 1 0 0 1 162 237 ] concat K 
+; N 897 1437 M 904 1436 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1436 M 912 1438 I : [ 1 0 0 1 162 237 ] concat K 
+; N 912 1438 M 919 1442 I : [ 1 0 0 1 162 237 ] concat K 
+; N 919 1442 M 926 1446 I : [ 1 0 0 1 162 237 ] concat K 
+; N 926 1446 M 934 1451 I : [ 1 0 0 1 162 237 ] concat K 
+; N 934 1451 M 941 1455 I : [ 1 0 0 1 162 237 ] concat K 
+; N 941 1455 M 949 1458 I : [ 1 0 0 1 162 237 ] concat K 
+; N 949 1458 M 956 1459 I : [ 1 0 0 1 162 237 ] concat K 
+; N 956 1459 M 963 1460 I : [ 1 0 0 1 162 237 ] concat K 
+; N 963 1460 M 971 1462 I : [ 1 0 0 1 162 237 ] concat K 
+; N 971 1462 M 978 1463 I : [ 1 0 0 1 162 237 ] concat K 
+; N 978 1463 M 986 1463 I : [ 1 0 0 1 162 237 ] concat K 
+; N 986 1463 M 993 1464 I : [ 1 0 0 1 162 237 ] concat K 
+; N 993 1464 M 1000 1465 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1465 M 1008 1466 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1008 1466 M 1015 1468 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1015 1468 M 1023 1471 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1023 1471 M 1030 1474 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1030 1474 M 1037 1477 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1037 1477 M 1045 1479 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1045 1479 M 1052 1479 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1052 1479 M 1060 1480 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1060 1480 M 1067 1481 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1067 1481 M 1074 1482 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1074 1482 M 1082 1482 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1082 1482 M 1089 1483 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1089 1483 M 1097 1484 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1484 M 1104 1485 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1104 1485 M 1111 1485 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1111 1485 M 1119 1485 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1119 1485 M 1126 1486 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1126 1486 M 1134 1487 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1134 1487 M 1141 1488 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1141 1488 M 1148 1489 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1148 1489 M 1156 1490 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1156 1490 M 1163 1490 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1163 1490 M 1170 1490 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1170 1490 M 1178 1491 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1178 1491 M 1185 1491 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1185 1491 M 1193 1489 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1489 M 1200 1462 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1200 1462 M 1207 1431 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1207 1431 M 1215 1410 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1215 1410 M 1222 1394 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1222 1394 M 1230 1385 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1230 1385 M 1237 1384 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1237 1384 M 1244 1389 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1244 1389 M 1252 1395 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1252 1395 M 1259 1405 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1259 1405 M 1267 1411 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1267 1411 M 1274 1408 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1274 1408 M 1281 1401 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1281 1401 M 1289 1395 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1395 M 1296 1392 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1296 1392 M 1304 1389 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1304 1389 M 1311 1391 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1311 1391 M 1318 1397 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1318 1397 M 1326 1405 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1326 1405 M 1333 1414 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1333 1414 M 1341 1422 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1341 1422 M 1348 1431 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1348 1431 M 1355 1440 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1355 1440 M 1363 1446 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1363 1446 M 1370 1452 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1370 1452 M 1378 1459 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1378 1459 M 1385 1466 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1466 M 1392 1471 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1392 1471 M 1400 1476 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1400 1476 M 1407 1481 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1407 1481 M 1415 1485 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1415 1485 M 1422 1487 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1422 1487 M 1429 1489 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1429 1489 M 1437 1490 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1437 1490 M 1444 1492 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1444 1492 M 1452 1493 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1452 1493 M 1459 1494 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1459 1494 M 1466 1494 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1466 1494 M 1474 1495 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1474 1495 M 1481 1496 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1481 1496 M 1489 1496 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1489 1496 M 1496 1497 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1496 1497 M 1503 1497 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1503 1497 M 1511 1498 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1511 1498 M 1518 1498 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1498 M 1526 1498 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1526 1498 M 1533 1499 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1533 1499 M 1540 1499 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1540 1499 M 1548 1499 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1548 1499 M 1555 1500 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1555 1500 M 1563 1500 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1563 1500 M 1570 1501 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1570 1501 M 1577 1501 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1577 1501 M 1585 1501 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1585 1501 M 1592 1502 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1592 1502 M 1600 1502 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1600 1502 M 1607 1502 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1607 1502 M 1614 1503 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1503 M 1622 1503 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1622 1503 M 1629 1503 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1629 1503 M 1637 1504 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1637 1504 M 1644 1504 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1644 1504 M 1651 1505 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1651 1505 M 1659 1505 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1659 1505 M 1666 1505 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1666 1505 M 1673 1506 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1673 1506 M 1681 1506 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1681 1506 M 1688 1506 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1688 1506 M 1696 1506 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1696 1506 M 1703 1498 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1703 1498 M 1710 1485 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1485 M 1718 1428 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1718 1428 M 1725 1385 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1725 1385 M 1733 1306 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1733 1306 M 1740 1259 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1740 1259 M 1747 1201 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1747 1201 M 1755 1161 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1755 1161 M 1762 1120 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1762 1120 M 1770 1087 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 1087 M 1777 1056 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1777 1056 M 1784 1031 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1784 1031 M 1792 1007 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1792 1007 M 1799 987 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1799 987 M 1807 968 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1807 968 M 1814 952 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1814 952 M 1821 937 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1821 937 M 1829 924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1829 924 M 1836 912 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1836 912 M 1844 901 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1844 901 M 1851 890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1851 890 M 1858 881 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1858 881 M 1866 872 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1866 872 M 1873 864 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1873 864 M 1881 856 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1881 856 M 1888 849 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1888 849 M 1895 842 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1895 842 M 1903 835 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 835 M 1910 829 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1910 829 M 1918 823 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1918 823 M 1925 817 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1925 817 M 1932 812 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1932 812 M 1940 807 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1940 807 M 1947 802 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1947 802 M 1955 797 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1955 797 M 1962 792 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1962 792 M 1969 788 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1969 788 M 1977 784 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1977 784 M 1984 780 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1984 780 M 1992 776 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1992 776 M 1999 772 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 772 M 2006 768 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2006 768 M 2014 764 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2014 764 M 2021 761 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2021 761 M 2029 757 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2029 757 M 2036 754 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2036 754 M 2043 751 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2043 751 M 2051 748 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2051 748 M 2058 745 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2058 745 M 2066 742 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2066 742 M 2073 739 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2073 739 M 2080 736 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2080 736 M 2088 733 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2088 733 M 2095 731 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 731 M 2103 728 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2103 728 M 2110 725 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2110 725 M 2117 723 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2117 723 M 2125 720 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2125 720 M 2132 718 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2132 718 M 2139 716 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2139 716 M 2147 713 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2147 713 M 2154 711 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2154 711 M 2162 709 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2162 709 M 2169 707 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2169 707 M 2176 704 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2176 704 M 2184 702 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2184 702 M 2191 700 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 700 M 2199 698 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2199 698 M 2206 696 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2206 696 M 2213 694 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2213 694 M 2221 692 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2221 692 M 2228 691 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2228 691 M 2236 689 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2236 689 M 2243 687 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2243 687 M 2250 685 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2250 685 M 2258 683 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2258 683 M 2265 682 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2265 682 M 2273 680 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2273 680 M 2280 678 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2280 678 M 2287 676 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2287 676 M 2295 675 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2295 675 M 2302 673 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2302 673 M 2310 672 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2310 672 M 2317 670 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2317 670 M 2324 668 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 668 M 2332 667 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2332 667 M 2339 665 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2339 665 M 2347 664 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2347 664 M 2354 662 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2354 662 M 2361 661 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2361 661 M 2369 659 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2369 659 M 2376 658 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2376 658 M 2384 657 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 657 M 2391 655 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2391 655 M 2398 654 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2398 654 M 2406 653 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2406 653 M 2413 651 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2413 651 M 2421 650 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2421 650 M 2428 649 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2428 649 M 2435 647 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2435 647 M 2443 646 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2443 646 M 2450 645 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2450 645 M 2458 643 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2458 643 M 2465 642 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2465 642 M 2472 641 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2472 641 M 2480 640 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 640 M 2487 639 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2487 639 M 2495 637 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2495 637 M 2502 636 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2502 636 M 2509 635 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2509 635 M 2517 634 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2517 634 M 2524 633 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2524 633 M 2532 632 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2532 632 M 2539 631 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2539 631 M 2546 630 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2546 630 M 2554 628 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2554 628 M 2561 627 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2561 627 M 2569 626 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2569 626 M 2576 625 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 625 M 2583 624 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2583 624 M 2591 623 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2591 623 M 2598 622 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2598 622 M 2605 621 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2605 621 M 2613 620 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2613 620 M 2620 619 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2620 619 M 2628 618 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2628 618 M 2635 617 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2635 617 M 2642 616 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2642 616 M 2650 615 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2650 615 M 2657 614 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2657 614 M 2665 613 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2665 613 M 2672 612 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2672 612 M 2679 611 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2679 611 M 2687 611 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2687 611 M 2694 610 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2694 610 M 2702 609 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2702 609 M 2709 608 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 608 M 2716 607 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2716 607 M 2724 606 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2724 606 M 2731 605 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2731 605 M 2739 604 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2739 604 M 2746 604 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2746 604 M 2753 603 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2753 603 M 2761 602 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2761 602 M 2768 601 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2768 601 M 2776 600 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2776 600 M 2783 599 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2783 599 M 2790 599 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2790 599 M 2798 598 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2798 598 M 2805 597 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 597 M 2813 597 I : [ 1 0 0 1 162 237 ] concat K 
+; : 2808 591 13 12 rc N 2813 597 M 2820 596 I : [ 1 0 0 1 162 237 ] concat K 
+; ; : 1840 1956 16 14 rc N 1840 1980 M 1843 1956 I 1855 1957 I 1852 1981 I C 
+0 0 0 1 scol  O ; N 1849 1908 M 1852 1884 I 1864 1885 I 1861 1909 I C 
+0 0 0 1 scol  O N 1858 1837 M 1861 1813 I 1873 1814 I 1870 1838 I C 
+ O N 1867 1765 M 1870 1742 I 1882 1743 I 1879 1766 I C 
+ O N 1876 1694 M 1879 1670 I 1891 1671 I 1888 1695 I C 
+ O N 1885 1622 M 1888 1599 I 1900 1600 I 1897 1623 I C 
+ O N 1893 1551 M 1896 1527 I 1908 1528 I 1905 1552 I C 
+ O N 1902 1480 M 1905 1456 I 1917 1457 I 1914 1481 I C 
+ O N 1911 1408 M 1914 1384 I 1926 1385 I 1923 1409 I C 
+ O N 1920 1337 M 1923 1313 I 1935 1314 I 1932 1338 I C 
+ O N 1929 1265 M 1932 1241 I 1944 1242 I 1941 1266 I C 
+ O N 1938 1194 M 1941 1170 I 1953 1171 I 1950 1195 I C 
+ O N 1947 1122 M 1950 1098 I 1962 1099 I 1959 1123 I C 
+ O N 1956 1051 M 1959 1027 I 1971 1028 I 1968 1052 I C 
+ O N 1964 979 M 1967 955 I 1979 956 I 1976 980 I C 
+ O N 1973 908 M 1976 884 I 1988 885 I 1985 909 I C 
+ O N 1982 836 M 1985 813 I 1997 814 I 1994 837 I C 
+ O N 1991 765 M 1994 741 I 2006 742 I 2003 766 I C 
+ O N 2000 693 M 2003 670 I 2015 671 I 2012 694 I C 
+ O N 2009 622 M 2012 598 I 2024 599 I 2021 623 I C 
+ O N 2018 551 M 2021 527 I 2033 528 I 2030 552 I C 
+ O : 1644 1963 16 7 rc N 1644 1987 M 1647 1963 I 1659 1964 I 1656 1988 I C 
+ O ; N 1653 1915 M 1656 1892 I 1668 1893 I 1665 1916 I C 
+ O N 1662 1844 M 1665 1820 I 1677 1821 I 1674 1845 I C 
+ O N 1671 1772 M 1673 1749 I 1685 1750 I 1683 1773 I C 
+ O N 1679 1701 M 1682 1677 I 1694 1678 I 1691 1702 I C 
+ O N 1688 1630 M 1691 1606 I 1703 1607 I 1700 1631 I C 
+ O N 1697 1558 M 1700 1534 I 1712 1535 I 1709 1559 I C 
+ O N 1706 1487 M 1709 1463 I 1721 1464 I 1718 1488 I C 
+ O N 1715 1415 M 1718 1391 I 1730 1392 I 1727 1416 I C 
+ O N 1723 1344 M 1726 1320 I 1738 1321 I 1735 1345 I C 
+ O N 1732 1272 M 1735 1248 I 1747 1249 I 1744 1273 I C 
+ O N 1741 1201 M 1744 1177 I 1756 1178 I 1753 1202 I C 
+ O N 1750 1129 M 1753 1105 I 1765 1106 I 1762 1130 I C 
+ O N 1759 1058 M 1762 1034 I 1774 1035 I 1771 1059 I C 
+ O N 1768 986 M 1771 963 I 1783 964 I 1780 987 I C 
+ O N 1776 915 M 1779 891 I 1791 892 I 1788 916 I C 
+ O N 1785 843 M 1788 820 I 1800 821 I 1797 844 I C 
+ O N 1794 772 M 1797 748 I 1809 749 I 1806 773 I C 
+ O N 1803 700 M 1806 677 I 1818 678 I 1815 701 I C 
+ O N 1812 629 M 1815 605 I 1827 606 I 1824 630 I C 
+ O N 1821 558 M 1824 534 I 1836 535 I 1833 559 I C 
+ O Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Encoding256 5.0 0
+/CharCol256Encoding[/.notdef/breve/caron/dotaccent/dotlessi/fi/fl/fraction
+/hungarumlaut/Lslash/lslash/minus/ogonek/ring/Zcaron/zcaron/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle/parenleft/parenright/asterisk/plus/comma
+/hyphen/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S
+/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/asciicircum/underscore/grave
+/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright
+/asciitilde/.notdef/Euro/.notdef/quotesinglbase/florin/quotedblbase/ellipsis
+/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef
+/.notdef/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis/.notdef/exclamdown/cent/sterling/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/.notdef/registered
+/macron/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph
+/periodcentered/cedilla/onesuperior/ordmasculine/guillemotright/onequarter
+/onehalf/threequarters/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis]def EncodeDict/256 CharCol256Encoding put
+%%EndResource
+end reinitialize
+
+%%IncludeResource: font Helvetica-Bold
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_Euro_L2 5.0 0
+/UseT3EuroFont{/currentdistillerparams where{pop currentdistillerparams
+/CoreDistVersion get 4000 le}{false}ifelse}bind def/NewEuroT3Font?{dup/FontType
+get 3 eq{dup/EuroFont known exch/BaseFont known and}{pop false}ifelse}bind def
+/T1FontHasEuro{dup/CharStrings known not{dup NewEuroT3Font?{dup/EuroGlyphName
+get exch/EuroFont get/CharStrings get exch known{true}{false}ifelse}{pop false}
+ifelse}{dup/FontType get 1 eq{/CharStrings get/Euro known}{dup/InfoDict known{
+/InfoDict get/Euro known}{/CharStrings get/Euro known}ifelse}ifelse}ifelse}bind
+def/FontHasEuro{findfont dup/Blend known{pop true}{T1FontHasEuro}ifelse}bind
+def/EuroEncodingIdx 1 def/EuroFontHdr{12 dict begin/FontInfo 10 dict dup begin
+/version(001.000)readonly def/Notice(Copyright (c)1999 Adobe Systems
+Incorporated. All Rights Reserved.)readonly def/FullName(Euro)readonly def
+/FamilyName(Euro)readonly def/Weight(Regular)readonly def/isFixedPitch false
+def/ItalicAngle 0 def/UnderlinePosition -100 def/UnderlineThickness 50 def end
+readonly def/FontName/Euro def/Encoding 256 array 0 1 255{1 index exch/.notdef
+put}for def/PaintType 0 def/FontType 1 def/FontMatrix[0.001 0 0 0.001 0 0]def
+/FontBBox{-25 -23 1500 804}readonly def currentdict end dup/Private 20 dict dup
+begin/ND{def}def/NP{put}def/lenIV -1 def/RD{string currentfile exch
+readhexstring pop}def/-|{string currentfile exch readstring pop}executeonly def
+/|-{def}executeonly def/|{put}executeonly def/BlueValues[-20 0 706 736 547 572]
+|-/OtherBlues[-211 -203]|-/BlueScale 0.0312917 def/MinFeature{16 16}|-/StdHW
+[60]|-/StdVW[71]|-/ForceBold false def/password 5839 def/Erode{8.5 dup 3 -1
+roll 0.1 mul exch 0.5 sub mul cvi sub dup mul 71 0 dtransform dup mul exch dup
+mul add le{pop pop 1.0 1.0}{pop pop 0.0 1.5}ifelse}def/OtherSubrs[{}{}{}
+{systemdict/internaldict known not{pop 3}{1183615869 systemdict/internaldict
+get exec dup/startlock known{/startlock get exec}{dup/strtlck known{/strtlck
+get exec}{pop 3}ifelse}ifelse}ifelse}executeonly]|-/Subrs 5 array dup 0
+<8E8B0C100C110C110C210B>put dup 1<8B8C0C100B>put dup 2<8B8D0C100B>put dup 3<0B>
+put dup 4<8E8C8E0C100C110A0B>put |- 2 index/CharStrings 256 dict dup begin
+/.notdef<8b8b0d0e>def end end put put dup/FontName get exch definefont pop}bind
+def/AddEuroGlyph{2 index exch EuroEncodingIdx 1 eq{EuroFontHdr}if systemdict
+begin/Euro findfont dup dup/Encoding get 5 1 roll/Private get begin/CharStrings
+get dup 3 index known{pop pop pop pop end end}{begin 1 index exch def end end
+end EuroEncodingIdx dup 1 add/EuroEncodingIdx exch def exch put}ifelse}bind def
+/GetNewXUID{currentdict/XUID known{[7 XUID aload pop]true}{currentdict/UniqueID
+known{[7 UniqueID]true}{false}ifelse}ifelse}bind def/BuildT3EuroFont{exch 16
+dict begin dup/FontName exch def findfont dup/Encoding get/Encoding exch def
+dup length 1 add dict copy dup/FID undef begin dup dup/FontName exch def
+/Encoding 256 array 0 1 255{1 index exch/.notdef put}for def GetNewXUID{/XUID
+exch def}if currentdict end definefont pop/BaseFont exch findfont 1000
+scalefont def/EuroFont exch findfont 1000 scalefont def pop/EuroGlyphName exch
+def/FontType 3 def/FontMatrix[.001 0 0 .001 0 0]def/FontBBox BaseFont/FontBBox
+get def/Char 1 string def/BuildChar{exch dup begin/Encoding get 1 index get
+/Euro eq{BaseFont T1FontHasEuro{false}{true}ifelse}{false}ifelse{EuroFont
+setfont pop userdict/Idx 0 put EuroFont/Encoding get{EuroGlyphName eq{exit}
+{userdict/Idx Idx 1 add put}ifelse}forall userdict/Idx get}{dup dup Encoding
+exch get BaseFont/Encoding get 3 1 roll put BaseFont setfont}ifelse Char 0 3 -1
+roll put Char stringwidth newpath 0 0 moveto Char true charpath flattenpath
+pathbbox setcachedevice 0 0 moveto Char show end}bind def currentdict end dup
+/FontName get exch definefont pop}bind def/AddEuroToT1Font{dup findfont dup
+length 10 add dict copy dup/FID undef begin/EuroFont 3 -1 roll findfont 1000
+scalefont def CharStrings dup length 1 add dict copy begin/Euro{EuroFont
+setfont pop EuroGBBox aload pop setcachedevice 0 0 moveto EuroGName glyphshow}
+bind def currentdict end/CharStrings exch def GetNewXUID{/XUID exch def}if 3 1
+roll/EuroGBBox exch def/EuroGName exch def currentdict end definefont pop}bind
+def/BuildNewFont{UseT3EuroFont{BuildT3EuroFont}{pop AddEuroToT1Font}ifelse}bind
+def/UseObliqueEuro{findfont/FontMatrix get dup 2 get 0 eq exch dup 0 get exch 3
+get eq and UseT3EuroFont or}bind def
+%%EndResource
+end reinitialize
+7500 VM?
+/Helvetica-Bold FontHasEuro not
+{
+/Euro.Helvetica-Bold
+ [556 0 12 -19 563 710 ] 
+<97F8C00DDBF7240378F70401F774EA01F803EA01F8EAF70401F8BBF9011571B141BE278B
+08FB278B303173FB32085906642C05DB0676078B828C828B82086206632C05E506A8FB3A
+EC3EF71B8B08C18BC192B9A908F71407676C54754C8B083B8B6ED483C508F72C06B3EA05
+FB5E06BB07F77106B3EA05FB91069AE5B2B9CC8B08C98BB26FA17408A07691828F830809
+0E>
+AddEuroGlyph
+/Euro /Helvetica-Bold /Helvetica-Bold-Copy BuildNewFont
+} if
+F /F0 0 /256 T /Helvetica-Bold mF 
+/F0S32 F0 [50 0 0 -50 0 0 ] mFS
+F0S32 Ji 
+1349 353 M (Subthreshold Slope)[33 30 31 17 30 19 28 28 30 31 14 31 14 33 14 31 31  0]xS 
+
+%%IncludeResource: font Helvetica
+7500 VM?
+/Helvetica FontHasEuro not
+{
+/Euro.Helvetica
+ [556 0 24 -19 541 703 ] 
+<A3F8C00DD4E90378DA01F779D301F808D301F904DA01F899F908156CB447AD338B08FB2D
+8B372B7BFB37085806724305D30644075B06724305DA06A0FB36E035F7218B08E08BCDB7
+939208EE077A71405E418B083F8B4CCE84F108F76506A3D305FB8306D207F79C06A3D305
+FBB10692E2B7E8F28B08E08BBE62A45A08090E>
+AddEuroGlyph
+/Euro /Helvetica /Helvetica-Copy BuildNewFont
+} if
+F /F1 0 /256 T /Helvetica mF 
+/F1S26 F1 [38 0 0 -38 0 0 ] mFS
+F1S26 Ji 
+292 1981 M (1.0E-15)[21 11 21 25 13 21  0]xS 
+292 1858 M (1.0E-14)[21 11 21 25 13 21  0]xS 
+292 1735 M (1.0E-13)[21 11 21 25 13 21  0]xS 
+292 1612 M (1.0E-12)[21 11 21 25 13 21  0]xS 
+292 1489 M (1.0E-11)[21 11 21 25 13 21  0]xS 
+292 1366 M (1.0E-10)[21 11 21 25 13 21  0]xS 
+292 1244 M (1.0E-09)[21 11 21 25 13 21  0]xS 
+292 1121 M (1.0E-08)[21 11 21 25 13 21  0]xS 
+292 998 M (1.0E-07)[21 11 21 25 13 21  0]xS 
+292 875 M (1.0E-06)[21 11 21 25 13 21  0]xS 
+292 752 M (1.0E-05)[21 11 21 25 13 21  0]xS 
+292 629 M (1.0E-04)[21 11 21 25 13 21  0]xS 
+292 506 M (1.0E-03)[21 11 21 25 13 21  0]xS 
+426 2036 M (-20)[13 21  0]xS 
+722 2036 M (-15)[13 21  0]xS 
+1018 2036 M (-10)[13 21  0]xS 
+1324 2036 M (-5)[13  0]xS 
+1627 2036 M (0)S 
+1922 2036 M (5)S 
+2207 2036 M (10)[21  0]xS 
+2503 2036 M (15)[21  0]xS 
+2799 2036 M (20)[21  0]xS 
+/F0S26 F0 [38 0 0 -38 0 0 ] mFS
+F0S26 Ji 
+1533 2104 M (VGS \(volts\))[25 30 25 11 13 21 23 11 13 21  0]xS 
+/F0S00IFFFFFFDA F0 [0 -38 -38 0 0 0 ] mFS
+F0S00IFFFFFFDA Ji 
+262 1332 M (IDS \(amps\))[-11 -27 -25 -11 -13 -21 -34 -23 -21  0]yS 
+30000 VM?
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_WinNT_Compat 5.0 0
+userdict/Pscript_WinNT_Compat 19 dict dup begin/bd{bind def}bind def/ld{load
+def}bd/$x matrix def/ANSIVec[16#0/grave 16#1/acute 16#2/circumflex 16#3/tilde
+16#4/macron 16#5/breve 16#6/dotaccent 16#7/dieresis 16#8/ring 16#9/cedilla 16#A
+/hungarumlaut 16#B/ogonek 16#C/caron 16#D/dotlessi 16#27/quotesingle 16#60
+/grave 16#7C/bar 16#82/quotesinglbase 16#83/florin 16#84/quotedblbase 16#85
+/ellipsis 16#86/dagger 16#87/daggerdbl 16#88/circumflex 16#89/perthousand 16#8A
+/Scaron 16#8B/guilsinglleft 16#8C/OE 16#91/quoteleft 16#92/quoteright 16#93
+/quotedblleft 16#94/quotedblright 16#95/bullet 16#96/endash 16#97/emdash 16#98
+/tilde 16#99/trademark 16#9A/scaron 16#9B/guilsinglright 16#9C/oe 16#9F
+/Ydieresis 16#A0/space 16#A1/exclamdown 16#A4/currency 16#A5/yen 16#A6
+/brokenbar 16#A7/section 16#A8/dieresis 16#A9/copyright 16#AA/ordfeminine 16#AB
+/guillemotleft 16#AC/logicalnot 16#AD/hyphen 16#AE/registered 16#AF/macron
+16#B0/degree 16#B1/plusminus 16#B2/twosuperior 16#B3/threesuperior 16#B4/acute
+16#B5/mu 16#B6/paragraph 16#B7/periodcentered 16#B8/cedilla 16#B9/onesuperior
+16#BA/ordmasculine 16#BB/guillemotright 16#BC/onequarter 16#BD/onehalf 16#BE
+/threequarters 16#BF/questiondown 16#C0/Agrave 16#C1/Aacute 16#C2/Acircumflex
+16#C3/Atilde 16#C4/Adieresis 16#C5/Aring 16#C6/AE 16#C7/Ccedilla 16#C8/Egrave
+16#C9/Eacute 16#CA/Ecircumflex 16#CB/Edieresis 16#CC/Igrave 16#CD/Iacute 16#CE
+/Icircumflex 16#CF/Idieresis 16#D0/Eth 16#D1/Ntilde 16#D2/Ograve 16#D3/Oacute
+16#D4/Ocircumflex 16#D5/Otilde 16#D6/Odieresis 16#D7/multiply 16#D8/Oslash
+16#D9/Ugrave 16#DA/Uacute 16#DB/Ucircumflex 16#DC/Udieresis 16#DD/Yacute 16#DE
+/Thorn 16#DF/germandbls 16#E0/agrave 16#E1/aacute 16#E2/acircumflex 16#E3
+/atilde 16#E4/adieresis 16#E5/aring 16#E6/ae 16#E7/ccedilla 16#E8/egrave 16#E9
+/eacute 16#EA/ecircumflex 16#EB/edieresis 16#EC/igrave 16#ED/iacute 16#EE
+/icircumflex 16#EF/idieresis 16#F0/eth 16#F1/ntilde 16#F2/ograve 16#F3/oacute
+16#F4/ocircumflex 16#F5/otilde 16#F6/odieresis 16#F7/divide 16#F8/oslash 16#F9
+/ugrave 16#FA/uacute 16#FB/ucircumflex 16#FC/udieresis 16#FD/yacute 16#FE/thorn
+16#FF/ydieresis]def currentdict{dup type/operatortype eq{[exch]cvx def}{pop
+pop}ifelse}forall/initialize{currentdict exch begin begin}bind def/terminate{
+/@FL where not{pop end end}{pop}ifelse}bind def/suspend/terminate load def
+/resume/initialize load def/RS{/pagesave where{pop pagesave restore}{$x matrix
+invertmatrix concat}ifelse}def/SS{/pagesave save def}def/CB{pop pop pop pop}def
+/B{pop pop pop pop}def/:/gsave load def/;/grestore load def/N/newpath load def
+end put
+%%EndResource
+end reinitialize
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+/languagelevel where {pop languagelevel} {1} ifelse
+2 ge dup {currentglobal exch true setglobal globaldict} {userdict} ifelse
+/GpPBeg1 {
+    gsave initclip
+    16 dict begin
+    /c {curveto} def /l {lineto} def /m {moveto} def
+    /rc {rcurveto} def /rl {rlineto} def
+    /NP {newpath} def /CP {closepath} def /SC {setrgbcolor} def
+    /GSE {end grestore} def
+} put
+{setglobal} if
+GpPBeg1
+1 1 1 SC
+NP 2842 1624 m 2981 1624 l 2981 1730 l 2842 1730 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+3.1250 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 2842 1624 m 2842 1730 l 2981 1730 l 2981 1624 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol /F1S2A F1 [42 0 0 -42 0 0 ] mFS
+F1S2A Ji 
+2850 1665 M (Subthr)[28 23 23 12 23  0]xS 
+2851 1717 M (eshold)[23 20 23 23 10  0]xS 
+F0S32 Ji 
+993 455 M (hf_ids_vgs-rev_multitest_TFT_96_9_X0_Y5@TR_Wafer_7_E1538-001)[30 17 28 14 31 28 28 27 31 28 17 19 28 27 28 44 30 14 17 14 17 28 28 17 28 32 31 32 28 28 28 28
+28 28 33 28 28 33 28 49 32 36 28 47 28 17 28 19 28 28 28 33 28 28 28 28 17 28 28  0]xS 
+30000 VM?
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+/languagelevel where {pop languagelevel} {1} ifelse
+2 ge dup {currentglobal exch true setglobal globaldict} {userdict} ifelse
+/GpPBeg1 {
+    gsave initclip
+    16 dict begin
+    /c {curveto} def /l {lineto} def /m {moveto} def
+    /rc {rcurveto} def /rl {rlineto} def
+    /NP {newpath} def /CP {closepath} def /SC {setrgbcolor} def
+    /GSE {end grestore} def
+} put
+{setglobal} if
+GpPBeg1
+1 1 1 SC
+NP 2775 1493 m 2981 1493 l 2981 1562 l 2775 1562 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+3.1250 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 2775 1493 m 2775 1562 l 2981 1562 l 2981 1493 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol F1S2A Ji 
+2783 1534 M (ON/OFF_)[33 30 12 33 26 26  0]xS 
+: 2783 1548 127 13 rc 2783 1586 M (20x0:  )[23 23 22 23 12 12  0]xS 
+; 30000 VM?
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+/languagelevel where {pop languagelevel} {1} ifelse
+2 ge dup {currentglobal exch true setglobal globaldict} {userdict} ifelse
+/GpPBeg1 {
+    gsave initclip
+    16 dict begin
+    /c {curveto} def /l {lineto} def /m {moveto} def
+    /rc {rcurveto} def /rl {rlineto} def
+    /NP {newpath} def /CP {closepath} def /SC {setrgbcolor} def
+    /GSE {end grestore} def
+} put
+{setglobal} if
+GpPBeg1
+1 1 1 SC
+NP 606 645 m 1700 645 l 1700 716 l 606 716 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+3.1250 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 606 645 m 606 716 l 1700 716 l 1700 645 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 820 686 M (Subthreshold_10: 0.26 volts/decade)[28 23 23 12 23 14 23 20 23 23 10 23 23 23 23 12 12 23 12 23 23 12 23 23 10 12 20 12 23 23 21 23
+23  0]xS 
+30000 VM?
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+/languagelevel where {pop languagelevel} {1} ifelse
+2 ge dup {currentglobal exch true setglobal globaldict} {userdict} ifelse
+/GpPBeg1 {
+    gsave initclip
+    16 dict begin
+    /c {curveto} def /l {lineto} def /m {moveto} def
+    /rc {rcurveto} def /rl {rlineto} def
+    /NP {newpath} def /CP {closepath} def /SC {setrgbcolor} def
+    /GSE {end grestore} def
+} put
+{setglobal} if
+GpPBeg1
+1 1 1 SC
+NP 651 541 m 1534 541 l 1534 629 l 651 629 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+3.1250 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 651 541 m 651 629 l 1534 629 l 1534 541 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 659 582 M (ON/OFF_20xN15: 2.533E+07)[33 30 12 33 26 26 23 23 23 22 30 23 23 12 12 23 12 23 23 23 28 25 23  0]xS 
+LH
+(%%[Page: 1]%%) = 
+%%PageTrailer
+
+%%Trailer
+%%BoundingBox: 15 15 598 777
+%%DocumentNeededResources: 
+%%+ font Helvetica-Bold
+%%+ font Helvetica
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_ErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L2 5.0 0
+%%+ procset Pscript_Text 5.0 0
+%%+ procset Pscript_Encoding256 5.0 0
+%%+ procset Pscript_Win_Euro_L2 5.0 0
+%%+ procset Pscript_WinNT_Compat 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+ehsave restore
+%%Pages: 1
+(%%[LastPage]%%) = 
+%%EOF
+

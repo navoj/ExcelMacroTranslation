@@ -1,0 +1,2904 @@
+%!PS-Adobe-3.0
+%%Title: SiO2_EXP_AnalysisMaster_Autoprobe_Prod_20100513.xls
+%%Creator: PScript5.dll Version 5.2.2
+%%CreationDate: 10/13/2015 9:50:54
+%%For: jtrujil1
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%Orientation: Landscape
+%%PageOrder: Special
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (QMS ColorScript Laser 1000) (2011.23) 2
+%%LanguageLevel: 2
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 15 15 598 777
+%%ViewingOrientation: 0 1 -1 0
+%%EndDefaults
+
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_ErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if errorname(VMerror)ne{showpage}if initgraphics courier setfont
+lmargin 720 moveto errorname(VMerror)eq{userdict/ehsave known{clear userdict
+/ehsave get restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}{
+(ERROR: )prnt errorname prnt nl(OFFENDING COMMAND: )prnt/command load prnt
+$error/ostack known{nl nl(STACK:)prnt nl nl $error/ostack get aload length{==}
+repeat}if}ifelse systemdict/showpage get exec(%%[ Error: )print errorname
+=print(; OffendingCommand: )print/command load =print( ]%%)= flush}if end end
+end}dup 0 systemdict put dup 4 $brkpage put bind readonly put/currentpacking
+where{pop/setpacking where{pop oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(This job requires more memory than is available in this printer.)100 500
+(Try one or more of the following, and then print again:)100 485
+(For the output format, choose Optimize For Portability.)115 470
+(In the Device Settings page, make sure the Available PostScript Memory is accurate.)
+115 455(Reduce the number of fonts in the document.)115 440
+(Print the document in parts.)115 425 12/Times-Roman showpage
+(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}if}bind def end
+version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg get def}ifelse
+105000 VM?
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+statusdict begin (%%[ ProductName: ) print product print ( ]%%)= flush end
+[ 0 1 -1 0 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+featurebegin{
+%%BeginNonPPDFeature: JobTimeout 0
+0 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/JobTimeout  4 -1 roll put setuserparams}{statusdict/setjobtimeout get exec}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginNonPPDFeature: WaitTimeout 300
+300 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/WaitTimeout 4 -1 roll put setuserparams}{statusdict/waittimeout 3 -1 roll put}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginFeature: *PageSize Letter
+
+    2 dict dup /PageSize [612 792] put dup /ImagingBBox null put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Separations False
+%%IncludeFeature: colorseparation(off)
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Colormodel 2
+%%IncludeFeature: colormodel(cmyk)
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *ColorRenderDict 1
+% Use default CRD
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Collate True
+1 dict dup /Collate true put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *TraySwitch False
+1 dict dup /TraySwitch false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *HalftoneType 4
+/Proofing4Color /Halftone findresource sethalftone
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Resolution 300dpi
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OutputBin Upper
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Duplex None
+
+%%EndFeature
+}featurecleanup
+1 setlinecap 1 setlinejoin
+/mysetup [ 0 72 300 V 72 300 V 0 15.00094 15.00094 ] def 
+%%EndSetup
+
+userdict begin /ehsave save def end
+%%Page: 1 1
+%%PageBoundingBox: 15 15 598 777
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L2 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T 1 1 dtransform abs ~ abs ~ 0 0 3 -1 $ 0 0 6 array astore{PaintData}imagemask
+E}b & mx makepattern setpattern E fEOFill{O}{L}? ;}b
+%%EndResource
+end reinitialize
+N 447 497 M 2853 497 I 2853 1928 I 447 1928 I 447 497 I C 
+0 0 0 1 scol : 447 1642 2406 1 rc N 447 1642 M 2853 1642 I K 
+; : 447 1356 2406 1 rc N 447 1356 M 2853 1356 I K 
+; : 447 1069 2406 1 rc N 447 1069 M 2853 1069 I K 
+; : 447 783 2406 1 rc N 447 783 M 2853 783 I K 
+; : 447 497 2406 1 rc N 447 497 M 2853 497 I K 
+; : 688 497 1 1431 rc N 688 497 M 688 1928 I K 
+; : 928 497 1 1431 rc N 928 497 M 928 1928 I K 
+; : 1169 497 1 1431 rc N 1169 497 M 1169 1928 I K 
+; : 1409 497 1 1431 rc N 1409 497 M 1409 1928 I K 
+; : 1650 497 1 1431 rc N 1650 497 M 1650 1928 I K 
+; : 1891 497 1 1431 rc N 1891 497 M 1891 1928 I K 
+; : 2131 497 1 1431 rc N 2131 497 M 2131 1928 I K 
+; : 2372 497 1 1431 rc N 2372 497 M 2372 1928 I K 
+; : 2612 497 1 1431 rc N 2612 497 M 2612 1928 I K 
+; : 2853 497 1 1431 rc N 2853 497 M 2853 1928 I K 
+; 0.5 0.5 0.5 1 scol 0 Lj 1 Lc 4 Lw solid N 2853 497 M 447 497 I 447 1928 I 2853 1928 I C 
+: [ 1 0 0 1 162 237 ] concat K 
+; 0 0 0 1 scol 1 Lw solid N 447 497 M 447 1928 I K 
+N 447 1928 M 460 1928 I K 
+N 447 1642 M 460 1642 I K 
+N 447 1356 M 460 1356 I K 
+N 447 1069 M 460 1069 I K 
+N 447 783 M 460 783 I K 
+N 447 497 M 460 497 I K 
+N 447 1928 M 2853 1928 I K 
+N 447 1928 M 447 1915 I K 
+N 688 1928 M 688 1915 I K 
+N 928 1928 M 928 1915 I K 
+N 1169 1928 M 1169 1915 I K 
+N 1409 1928 M 1409 1915 I K 
+N 1650 1928 M 1650 1915 I K 
+N 1891 1928 M 1891 1915 I K 
+N 2131 1928 M 2131 1915 I K 
+N 2372 1928 M 2372 1915 I K 
+N 2612 1928 M 2612 1915 I K 
+N 2853 1928 M 2853 1915 I K 
+0 0 1 1 scol 1 Lj 8 Lw solid N 447 1928 M 459 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 459 1928 M 471 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 471 1928 M 483 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1928 M 495 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1928 M 507 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1928 M 519 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1928 M 531 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1928 M 543 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1928 M 555 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1928 M 567 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1928 M 579 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1928 M 591 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1928 M 603 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1928 M 615 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1928 M 627 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1928 M 639 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1928 M 652 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 652 1928 M 664 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1928 M 676 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1928 M 688 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1928 M 700 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1928 M 712 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1928 M 724 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 724 1928 M 736 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 736 1928 M 748 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 748 1928 M 760 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 760 1928 M 772 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 772 1928 M 784 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 784 1928 M 796 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 796 1928 M 808 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1928 M 820 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 820 1928 M 832 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 832 1928 M 844 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 844 1928 M 856 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 856 1928 M 868 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 868 1928 M 880 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 880 1928 M 892 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 892 1928 M 904 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1928 M 916 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 916 1928 M 928 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 928 1928 M 940 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 940 1928 M 952 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 952 1928 M 964 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 964 1928 M 976 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 976 1928 M 988 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 988 1928 M 1000 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1928 M 1012 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1012 1928 M 1024 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1024 1928 M 1036 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1036 1928 M 1049 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1049 1928 M 1061 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1061 1928 M 1073 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1073 1928 M 1085 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1085 1928 M 1097 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1928 M 1109 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1109 1928 M 1121 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1121 1928 M 1133 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1133 1928 M 1145 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1145 1928 M 1157 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1157 1928 M 1169 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1169 1928 M 1181 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1181 1928 M 1193 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1928 M 1205 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1205 1928 M 1217 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1217 1928 M 1229 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1229 1928 M 1241 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1241 1928 M 1253 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1253 1928 M 1265 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1265 1928 M 1277 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1277 1928 M 1289 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1928 M 1301 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1301 1928 M 1313 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1313 1928 M 1325 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1325 1928 M 1337 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1337 1928 M 1349 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1349 1928 M 1361 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1361 1928 M 1373 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1373 1928 M 1385 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1928 M 1397 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1397 1928 M 1409 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1409 1928 M 1421 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1421 1928 M 1433 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1433 1928 M 1445 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1445 1928 M 1458 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1458 1928 M 1470 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1470 1928 M 1482 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1482 1928 M 1494 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1494 1928 M 1506 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1506 1928 M 1518 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1928 M 1530 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1530 1928 M 1542 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1542 1928 M 1554 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1554 1928 M 1566 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1566 1928 M 1578 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1578 1928 M 1590 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1590 1928 M 1602 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1602 1928 M 1614 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1928 M 1626 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1626 1928 M 1638 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1638 1928 M 1650 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1650 1928 M 1662 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1662 1928 M 1674 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1674 1928 M 1686 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1686 1928 M 1698 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1698 1928 M 1710 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1928 M 1722 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1722 1928 M 1734 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1734 1928 M 1746 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1746 1928 M 1758 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1758 1928 M 1770 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 1928 M 1782 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1782 1928 M 1794 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1794 1928 M 1806 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1806 1928 M 1818 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1818 1928 M 1830 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1830 1928 M 1842 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1842 1928 M 1855 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1855 1928 M 1867 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1867 1928 M 1879 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1879 1928 M 1891 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1891 1928 M 1903 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 1928 M 1915 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1915 1928 M 1927 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1927 1928 M 1939 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1939 1928 M 1951 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1951 1928 M 1963 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1963 1928 M 1975 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1975 1928 M 1987 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1987 1928 M 1999 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 1928 M 2011 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2011 1928 M 2023 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2023 1928 M 2035 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2035 1928 M 2047 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2047 1928 M 2059 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2059 1928 M 2071 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2071 1928 M 2083 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2083 1928 M 2095 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 1928 M 2107 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2107 1928 M 2119 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2119 1928 M 2131 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2131 1928 M 2143 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2143 1928 M 2155 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2155 1928 M 2167 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2167 1928 M 2179 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2179 1928 M 2191 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 1928 M 2203 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2203 1928 M 2215 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2215 1928 M 2227 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2227 1928 M 2239 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2239 1928 M 2252 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2252 1928 M 2264 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2264 1928 M 2276 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2276 1928 M 2288 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2288 1928 M 2300 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2300 1928 M 2312 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2312 1928 M 2324 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 1928 M 2336 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2336 1928 M 2348 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2348 1928 M 2360 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2360 1928 M 2372 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2372 1928 M 2384 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 1928 M 2396 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2396 1928 M 2408 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2408 1928 M 2420 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2420 1928 M 2432 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2432 1928 M 2444 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2444 1928 M 2456 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2456 1928 M 2468 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2468 1928 M 2480 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 1928 M 2492 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2492 1928 M 2504 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2504 1928 M 2516 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2516 1928 M 2528 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2528 1928 M 2540 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2540 1928 M 2552 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2552 1928 M 2564 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2564 1928 M 2576 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 1928 M 2588 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2588 1928 M 2600 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2600 1928 M 2612 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2612 1928 M 2624 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2624 1928 M 2636 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2636 1928 M 2648 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2648 1928 M 2661 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2661 1928 M 2673 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2673 1928 M 2685 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2685 1928 M 2697 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2697 1928 M 2709 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 1928 M 2721 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2721 1928 M 2733 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2733 1928 M 2745 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2745 1928 M 2757 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2757 1928 M 2769 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2769 1928 M 2781 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2781 1928 M 2793 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2793 1928 M 2805 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 1928 M 2817 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2817 1928 M 2829 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2829 1928 M 2841 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2841 1928 M 2853 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 447 1928 M 459 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 459 1928 M 471 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 471 1928 M 483 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1928 M 495 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1928 M 507 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1928 M 519 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1928 M 531 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1928 M 543 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1928 M 555 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1928 M 567 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1928 M 579 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1928 M 591 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1928 M 603 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1928 M 615 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1928 M 627 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1928 M 639 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1928 M 652 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 652 1928 M 664 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1928 M 676 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1928 M 688 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1928 M 700 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1928 M 712 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1928 M 724 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 724 1928 M 736 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 736 1928 M 748 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 748 1928 M 760 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 760 1928 M 772 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 772 1928 M 784 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 784 1928 M 796 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 796 1928 M 808 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1928 M 820 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 820 1928 M 832 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 832 1928 M 844 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 844 1928 M 856 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 856 1928 M 868 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 868 1928 M 880 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 880 1928 M 892 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 892 1928 M 904 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1928 M 916 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 916 1928 M 928 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 928 1928 M 940 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 940 1928 M 952 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 952 1928 M 964 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 964 1928 M 976 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 976 1928 M 988 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 988 1928 M 1000 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1928 M 1012 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1012 1928 M 1024 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1024 1928 M 1036 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1036 1928 M 1049 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1049 1928 M 1061 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1061 1928 M 1073 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1073 1928 M 1085 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1085 1928 M 1097 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1928 M 1109 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1109 1928 M 1121 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1121 1928 M 1133 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1133 1928 M 1145 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1145 1928 M 1157 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1157 1928 M 1169 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1169 1928 M 1181 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1181 1928 M 1193 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1928 M 1205 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1205 1928 M 1217 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1217 1928 M 1229 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1229 1928 M 1241 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1241 1928 M 1253 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1253 1928 M 1265 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1265 1928 M 1277 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1277 1928 M 1289 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1928 M 1301 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1301 1928 M 1313 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1313 1928 M 1325 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1325 1928 M 1337 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1337 1928 M 1349 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1349 1928 M 1361 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1361 1928 M 1373 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1373 1928 M 1385 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1928 M 1397 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1397 1928 M 1409 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1409 1928 M 1421 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1421 1928 M 1433 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1433 1928 M 1445 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1445 1928 M 1458 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1458 1928 M 1470 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1470 1928 M 1482 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1482 1928 M 1494 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1494 1928 M 1506 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1506 1928 M 1518 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1928 M 1530 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1530 1928 M 1542 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1542 1928 M 1554 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1554 1928 M 1566 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1566 1928 M 1578 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1578 1928 M 1590 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1590 1928 M 1602 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1602 1928 M 1614 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1928 M 1626 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1626 1928 M 1638 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1638 1928 M 1650 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1650 1928 M 1662 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1662 1928 M 1674 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1674 1928 M 1686 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1686 1928 M 1698 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1698 1928 M 1710 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1928 M 1722 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1722 1928 M 1734 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1734 1928 M 1746 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1746 1928 M 1758 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1758 1928 M 1770 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 1928 M 1782 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1782 1928 M 1794 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1794 1928 M 1806 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1806 1928 M 1818 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1818 1928 M 1830 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1830 1928 M 1842 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1842 1928 M 1855 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1855 1928 M 1867 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1867 1928 M 1879 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1879 1928 M 1891 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1891 1928 M 1903 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 1928 M 1915 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1915 1928 M 1927 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1927 1928 M 1939 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1939 1928 M 1951 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1951 1928 M 1963 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1963 1928 M 1975 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1975 1928 M 1987 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1987 1928 M 1999 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 1928 M 2011 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2011 1928 M 2023 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2023 1928 M 2035 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2035 1928 M 2047 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2047 1928 M 2059 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2059 1928 M 2071 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2071 1928 M 2083 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2083 1928 M 2095 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 1928 M 2107 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2107 1928 M 2119 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2119 1928 M 2131 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2131 1928 M 2143 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2143 1928 M 2155 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2155 1928 M 2167 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2167 1928 M 2179 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2179 1928 M 2191 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 1928 M 2203 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2203 1928 M 2215 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2215 1928 M 2227 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2227 1928 M 2239 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2239 1928 M 2252 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2252 1928 M 2264 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2264 1928 M 2276 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2276 1928 M 2288 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2288 1928 M 2300 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2300 1928 M 2312 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2312 1928 M 2324 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 1928 M 2336 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2336 1928 M 2348 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2348 1928 M 2360 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2360 1928 M 2372 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2372 1928 M 2384 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 1928 M 2396 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2396 1928 M 2408 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2408 1928 M 2420 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2420 1928 M 2432 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2432 1928 M 2444 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2444 1928 M 2456 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2456 1928 M 2468 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2468 1928 M 2480 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 1928 M 2492 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2492 1928 M 2504 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2504 1928 M 2516 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2516 1928 M 2528 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2528 1928 M 2540 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2540 1928 M 2552 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2552 1928 M 2564 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2564 1928 M 2576 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 1928 M 2588 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2588 1928 M 2600 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2600 1928 M 2612 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2612 1928 M 2624 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2624 1928 M 2636 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2636 1928 M 2648 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2648 1928 M 2661 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2661 1928 M 2673 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2673 1928 M 2685 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2685 1928 M 2697 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2697 1928 M 2709 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 1928 M 2721 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2721 1928 M 2733 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2733 1928 M 2745 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2745 1928 M 2757 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2757 1928 M 2769 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2769 1928 M 2781 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2781 1928 M 2793 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2793 1928 M 2805 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 1928 M 2817 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2817 1928 M 2829 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2829 1928 M 2841 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2841 1928 M 2853 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 447 1928 M 459 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 459 1928 M 471 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 471 1928 M 483 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1928 M 495 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1928 M 507 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1928 M 519 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1928 M 531 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1928 M 543 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1928 M 555 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1928 M 567 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1928 M 579 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1928 M 591 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1928 M 603 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1928 M 615 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1928 M 627 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1928 M 639 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1928 M 652 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 652 1928 M 664 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1928 M 676 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1928 M 688 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1928 M 700 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1928 M 712 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1928 M 724 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 724 1928 M 736 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 736 1928 M 748 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 748 1928 M 760 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 760 1928 M 772 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 772 1928 M 784 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 784 1928 M 796 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 796 1928 M 808 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1928 M 820 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 820 1928 M 832 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 832 1928 M 844 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 844 1928 M 856 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 856 1928 M 868 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 868 1928 M 880 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 880 1928 M 892 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 892 1928 M 904 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1928 M 916 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 916 1928 M 928 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 928 1928 M 940 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 940 1928 M 952 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 952 1928 M 964 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 964 1928 M 976 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 976 1928 M 988 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 988 1928 M 1000 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1928 M 1012 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1012 1928 M 1024 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1024 1928 M 1036 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1036 1928 M 1049 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1049 1928 M 1061 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1061 1928 M 1073 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1073 1928 M 1085 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1085 1928 M 1097 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1928 M 1109 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1109 1928 M 1121 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1121 1928 M 1133 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1133 1928 M 1145 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1145 1928 M 1157 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1157 1928 M 1169 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1169 1928 M 1181 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1181 1928 M 1193 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1928 M 1205 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1205 1928 M 1217 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1217 1928 M 1229 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1229 1928 M 1241 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1241 1928 M 1253 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1253 1928 M 1265 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1265 1928 M 1277 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1277 1928 M 1289 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1928 M 1301 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1301 1928 M 1313 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1313 1928 M 1325 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1325 1928 M 1337 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1337 1928 M 1349 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1349 1928 M 1361 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1361 1928 M 1373 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1373 1928 M 1385 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1928 M 1397 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1397 1928 M 1409 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1409 1928 M 1421 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1421 1928 M 1433 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1433 1928 M 1445 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1445 1928 M 1458 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1458 1928 M 1470 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1470 1928 M 1482 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1482 1928 M 1494 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1494 1928 M 1506 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1506 1928 M 1518 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1928 M 1530 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1530 1928 M 1542 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1542 1928 M 1554 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1554 1928 M 1566 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1566 1928 M 1578 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1578 1928 M 1590 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1590 1928 M 1602 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1602 1928 M 1614 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1928 M 1626 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1626 1928 M 1638 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1638 1928 M 1650 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1650 1928 M 1662 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1662 1928 M 1674 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1674 1928 M 1686 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1686 1928 M 1698 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1698 1928 M 1710 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1928 M 1722 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1722 1928 M 1734 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1734 1928 M 1746 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1746 1928 M 1758 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1758 1928 M 1770 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 1928 M 1782 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1782 1928 M 1794 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1794 1928 M 1806 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1806 1928 M 1818 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1818 1928 M 1830 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1830 1928 M 1842 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1842 1928 M 1855 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1855 1928 M 1867 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1867 1928 M 1879 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1879 1928 M 1891 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1891 1928 M 1903 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 1928 M 1915 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1915 1928 M 1927 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1927 1928 M 1939 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1939 1928 M 1951 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1951 1928 M 1963 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1963 1928 M 1975 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1975 1928 M 1987 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1987 1928 M 1999 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 1928 M 2011 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2011 1928 M 2023 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2023 1928 M 2035 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2035 1928 M 2047 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2047 1928 M 2059 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2059 1928 M 2071 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2071 1928 M 2083 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2083 1928 M 2095 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 1928 M 2107 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2107 1928 M 2119 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2119 1928 M 2131 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2131 1928 M 2143 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2143 1928 M 2155 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2155 1928 M 2167 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2167 1928 M 2179 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2179 1928 M 2191 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 1928 M 2203 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2203 1928 M 2215 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2215 1928 M 2227 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2227 1928 M 2239 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2239 1928 M 2252 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2252 1928 M 2264 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2264 1928 M 2276 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2276 1928 M 2288 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2288 1928 M 2300 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2300 1928 M 2312 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2312 1928 M 2324 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 1928 M 2336 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2336 1928 M 2348 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2348 1928 M 2360 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2360 1928 M 2372 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2372 1928 M 2384 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 1928 M 2396 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2396 1928 M 2408 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2408 1928 M 2420 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2420 1928 M 2432 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2432 1928 M 2444 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2444 1928 M 2456 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2456 1928 M 2468 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2468 1928 M 2480 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 1928 M 2492 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2492 1928 M 2504 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2504 1928 M 2516 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2516 1928 M 2528 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2528 1928 M 2540 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2540 1928 M 2552 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2552 1928 M 2564 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2564 1928 M 2576 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 1928 M 2588 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2588 1928 M 2600 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2600 1928 M 2612 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2612 1928 M 2624 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2624 1928 M 2636 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2636 1928 M 2648 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2648 1928 M 2661 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2661 1928 M 2673 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2673 1928 M 2685 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2685 1928 M 2697 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2697 1928 M 2709 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 1928 M 2721 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2721 1928 M 2733 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2733 1928 M 2745 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2745 1928 M 2757 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2757 1928 M 2769 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2769 1928 M 2781 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2781 1928 M 2793 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2793 1928 M 2805 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 1928 M 2817 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2817 1928 M 2829 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2829 1928 M 2841 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2841 1928 M 2853 1928 I : [ 1 0 0 1 162 237 ] concat K 
+; N 447 1928 M 459 1927 I : [ 1 0 0 1 162 237 ] concat K 
+; N 459 1927 M 471 1927 I : [ 1 0 0 1 162 237 ] concat K 
+; N 471 1927 M 483 1927 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1927 M 495 1927 I : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1927 M 507 1926 I : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1926 M 519 1926 I : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1926 M 531 1926 I : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1926 M 543 1925 I : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1925 M 555 1925 I : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1925 M 567 1925 I : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1925 M 579 1925 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1925 M 591 1925 I : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1925 M 603 1925 I : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1925 M 615 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1924 M 627 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1924 M 639 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1924 M 652 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 652 1924 M 664 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1924 M 676 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1924 M 688 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1924 M 700 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1924 M 712 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1924 M 724 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 724 1924 M 736 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 736 1924 M 748 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 748 1923 M 760 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 760 1923 M 772 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 772 1923 M 784 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 784 1923 M 796 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 796 1923 M 808 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1923 M 820 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 820 1923 M 832 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 832 1923 M 844 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 844 1923 M 856 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 856 1923 M 868 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 868 1923 M 880 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 880 1923 M 892 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 892 1923 M 904 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1923 M 916 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 916 1923 M 928 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 928 1923 M 940 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 940 1923 M 952 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 952 1923 M 964 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 964 1923 M 976 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 976 1923 M 988 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 988 1923 M 1000 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1923 M 1012 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1012 1923 M 1024 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1024 1923 M 1036 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1036 1923 M 1049 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1049 1923 M 1061 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1061 1923 M 1073 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1073 1923 M 1085 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1085 1923 M 1097 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1923 M 1109 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1109 1923 M 1121 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1121 1923 M 1133 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1133 1923 M 1145 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1145 1923 M 1157 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1157 1923 M 1169 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1169 1923 M 1181 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1181 1923 M 1193 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1923 M 1205 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1205 1923 M 1217 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1217 1923 M 1229 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1229 1923 M 1241 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1241 1923 M 1253 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1253 1923 M 1265 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1265 1923 M 1277 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1277 1923 M 1289 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1923 M 1301 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1301 1923 M 1313 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1313 1923 M 1325 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1325 1923 M 1337 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1337 1923 M 1349 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1349 1923 M 1361 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1361 1923 M 1373 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1373 1923 M 1385 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1923 M 1397 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1397 1923 M 1409 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1409 1923 M 1421 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1421 1923 M 1433 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1433 1923 M 1445 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1445 1923 M 1458 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1458 1923 M 1470 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1470 1923 M 1482 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1482 1923 M 1494 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1494 1923 M 1506 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1506 1923 M 1518 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1923 M 1530 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1530 1923 M 1542 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1542 1923 M 1554 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1554 1923 M 1566 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1566 1923 M 1578 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1578 1923 M 1590 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1590 1923 M 1602 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1602 1923 M 1614 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1923 M 1626 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1626 1923 M 1638 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1638 1923 M 1650 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1650 1923 M 1662 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1662 1923 M 1674 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1674 1923 M 1686 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1686 1923 M 1698 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1698 1923 M 1710 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1923 M 1722 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1722 1923 M 1734 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1734 1923 M 1746 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1746 1923 M 1758 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1758 1923 M 1770 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 1923 M 1782 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1782 1923 M 1794 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1794 1923 M 1806 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1806 1923 M 1818 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1818 1923 M 1830 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1830 1923 M 1842 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1842 1923 M 1855 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1855 1923 M 1867 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1867 1923 M 1879 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1879 1923 M 1891 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1891 1923 M 1903 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 1923 M 1915 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1915 1923 M 1927 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1927 1923 M 1939 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1939 1923 M 1951 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1951 1923 M 1963 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1963 1923 M 1975 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1975 1923 M 1987 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1987 1923 M 1999 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 1923 M 2011 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2011 1923 M 2023 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2023 1923 M 2035 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2035 1923 M 2047 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2047 1923 M 2059 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2059 1923 M 2071 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2071 1923 M 2083 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2083 1922 M 2095 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 1922 M 2107 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2107 1922 M 2119 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2119 1922 M 2131 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2131 1922 M 2143 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2143 1922 M 2155 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2155 1922 M 2167 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2167 1922 M 2179 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2179 1922 M 2191 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 1922 M 2203 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2203 1922 M 2215 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2215 1922 M 2227 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2227 1922 M 2239 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2239 1922 M 2252 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2252 1922 M 2264 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2264 1922 M 2276 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2276 1922 M 2288 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2288 1922 M 2300 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2300 1922 M 2312 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2312 1922 M 2324 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 1922 M 2336 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2336 1922 M 2348 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2348 1922 M 2360 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2360 1922 M 2372 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2372 1922 M 2384 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 1922 M 2396 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2396 1922 M 2408 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2408 1922 M 2420 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2420 1922 M 2432 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2432 1922 M 2444 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2444 1922 M 2456 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2456 1922 M 2468 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2468 1922 M 2480 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 1922 M 2492 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2492 1922 M 2504 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2504 1922 M 2516 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2516 1922 M 2528 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2528 1922 M 2540 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2540 1922 M 2552 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2552 1922 M 2564 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2564 1922 M 2576 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 1922 M 2588 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2588 1922 M 2600 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2600 1922 M 2612 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2612 1922 M 2624 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2624 1922 M 2636 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2636 1922 M 2648 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2648 1922 M 2661 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2661 1922 M 2673 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2673 1922 M 2685 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2685 1922 M 2697 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2697 1922 M 2709 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 1922 M 2721 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2721 1922 M 2733 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2733 1922 M 2745 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2745 1922 M 2757 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2757 1922 M 2769 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2769 1922 M 2781 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2781 1922 M 2793 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2793 1922 M 2805 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 1922 M 2817 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2817 1922 M 2829 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2829 1922 M 2841 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2841 1922 M 2853 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 447 1928 M 459 1927 I : [ 1 0 0 1 162 237 ] concat K 
+; N 459 1927 M 471 1926 I : [ 1 0 0 1 162 237 ] concat K 
+; N 471 1926 M 483 1925 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1925 M 495 1925 I : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1925 M 507 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1924 M 519 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1923 M 531 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1922 M 543 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1922 M 555 1921 I : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1921 M 567 1920 I : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1920 M 579 1920 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1920 M 591 1919 I : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1919 M 603 1918 I : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1918 M 615 1918 I : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1918 M 627 1917 I : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1917 M 639 1916 I : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1916 M 652 1916 I : [ 1 0 0 1 162 237 ] concat K 
+; N 652 1916 M 664 1915 I : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1915 M 676 1914 I : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1914 M 688 1914 I : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1914 M 700 1913 I : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1913 M 712 1913 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1913 M 724 1912 I : [ 1 0 0 1 162 237 ] concat K 
+; N 724 1912 M 736 1912 I : [ 1 0 0 1 162 237 ] concat K 
+; N 736 1912 M 748 1911 I : [ 1 0 0 1 162 237 ] concat K 
+; N 748 1911 M 760 1910 I : [ 1 0 0 1 162 237 ] concat K 
+; N 760 1910 M 772 1910 I : [ 1 0 0 1 162 237 ] concat K 
+; N 772 1910 M 784 1909 I : [ 1 0 0 1 162 237 ] concat K 
+; N 784 1909 M 796 1909 I : [ 1 0 0 1 162 237 ] concat K 
+; N 796 1909 M 808 1908 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1908 M 820 1908 I : [ 1 0 0 1 162 237 ] concat K 
+; N 820 1908 M 832 1907 I : [ 1 0 0 1 162 237 ] concat K 
+; N 832 1907 M 844 1907 I : [ 1 0 0 1 162 237 ] concat K 
+; N 844 1907 M 856 1906 I : [ 1 0 0 1 162 237 ] concat K 
+; N 856 1906 M 868 1906 I : [ 1 0 0 1 162 237 ] concat K 
+; N 868 1906 M 880 1905 I : [ 1 0 0 1 162 237 ] concat K 
+; N 880 1905 M 892 1905 I : [ 1 0 0 1 162 237 ] concat K 
+; N 892 1905 M 904 1904 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1904 M 916 1904 I : [ 1 0 0 1 162 237 ] concat K 
+; N 916 1904 M 928 1903 I : [ 1 0 0 1 162 237 ] concat K 
+; N 928 1903 M 940 1903 I : [ 1 0 0 1 162 237 ] concat K 
+; N 940 1903 M 952 1902 I : [ 1 0 0 1 162 237 ] concat K 
+; N 952 1902 M 964 1902 I : [ 1 0 0 1 162 237 ] concat K 
+; N 964 1902 M 976 1901 I : [ 1 0 0 1 162 237 ] concat K 
+; N 976 1901 M 988 1901 I : [ 1 0 0 1 162 237 ] concat K 
+; N 988 1901 M 1000 1901 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1901 M 1012 1900 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1012 1900 M 1024 1900 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1024 1900 M 1036 1900 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1036 1900 M 1049 1899 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1049 1899 M 1061 1899 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1061 1899 M 1073 1899 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1073 1899 M 1085 1898 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1085 1898 M 1097 1898 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1898 M 1109 1898 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1109 1898 M 1121 1897 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1121 1897 M 1133 1897 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1133 1897 M 1145 1897 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1145 1897 M 1157 1897 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1157 1897 M 1169 1896 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1169 1896 M 1181 1896 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1181 1896 M 1193 1896 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1896 M 1205 1896 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1205 1896 M 1217 1895 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1217 1895 M 1229 1895 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1229 1895 M 1241 1895 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1241 1895 M 1253 1895 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1253 1895 M 1265 1895 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1265 1895 M 1277 1895 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1277 1895 M 1289 1894 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1894 M 1301 1894 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1301 1894 M 1313 1894 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1313 1894 M 1325 1894 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1325 1894 M 1337 1894 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1337 1894 M 1349 1894 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1349 1894 M 1361 1894 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1361 1894 M 1373 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1373 1893 M 1385 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1893 M 1397 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1397 1893 M 1409 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1409 1893 M 1421 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1421 1893 M 1433 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1433 1893 M 1445 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1445 1893 M 1458 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1458 1893 M 1470 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1470 1893 M 1482 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1482 1893 M 1494 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1494 1893 M 1506 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1506 1893 M 1518 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1892 M 1530 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1530 1892 M 1542 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1542 1892 M 1554 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1554 1892 M 1566 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1566 1892 M 1578 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1578 1892 M 1590 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1590 1892 M 1602 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1602 1892 M 1614 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1892 M 1626 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1626 1892 M 1638 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1638 1892 M 1650 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1650 1892 M 1662 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1662 1892 M 1674 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1674 1892 M 1686 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1686 1892 M 1698 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1698 1892 M 1710 1892 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1892 M 1722 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1722 1891 M 1734 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1734 1891 M 1746 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1746 1891 M 1758 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1758 1891 M 1770 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 1891 M 1782 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1782 1891 M 1794 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1794 1891 M 1806 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1806 1891 M 1818 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1818 1891 M 1830 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1830 1891 M 1842 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1842 1891 M 1855 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1855 1891 M 1867 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1867 1891 M 1879 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1879 1891 M 1891 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1891 1891 M 1903 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 1891 M 1915 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1915 1891 M 1927 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1927 1891 M 1939 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1939 1890 M 1951 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1951 1890 M 1963 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1963 1890 M 1975 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1975 1890 M 1987 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1987 1890 M 1999 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 1890 M 2011 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2011 1890 M 2023 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2023 1890 M 2035 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2035 1890 M 2047 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2047 1890 M 2059 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2059 1890 M 2071 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2071 1890 M 2083 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2083 1890 M 2095 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 1890 M 2107 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2107 1890 M 2119 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2119 1890 M 2131 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2131 1889 M 2143 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2143 1889 M 2155 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2155 1889 M 2167 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2167 1889 M 2179 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2179 1889 M 2191 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 1889 M 2203 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2203 1889 M 2215 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2215 1889 M 2227 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2227 1889 M 2239 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2239 1889 M 2252 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2252 1889 M 2264 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2264 1889 M 2276 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2276 1889 M 2288 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2288 1889 M 2300 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2300 1889 M 2312 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2312 1889 M 2324 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 1889 M 2336 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2336 1888 M 2348 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2348 1888 M 2360 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2360 1888 M 2372 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2372 1888 M 2384 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 1888 M 2396 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2396 1888 M 2408 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2408 1888 M 2420 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2420 1888 M 2432 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2432 1888 M 2444 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2444 1888 M 2456 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2456 1888 M 2468 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2468 1888 M 2480 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 1888 M 2492 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2492 1888 M 2504 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2504 1888 M 2516 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2516 1888 M 2528 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2528 1888 M 2540 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2540 1888 M 2552 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2552 1888 M 2564 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2564 1888 M 2576 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 1888 M 2588 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2588 1888 M 2600 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2600 1888 M 2612 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2612 1888 M 2624 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2624 1888 M 2636 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2636 1887 M 2648 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2648 1887 M 2661 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2661 1887 M 2673 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2673 1887 M 2685 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2685 1887 M 2697 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2697 1887 M 2709 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 1887 M 2721 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2721 1887 M 2733 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2733 1887 M 2745 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2745 1887 M 2757 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2757 1887 M 2769 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2769 1887 M 2781 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2781 1887 M 2793 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2793 1887 M 2805 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 1887 M 2817 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2817 1887 M 2829 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2829 1887 M 2841 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2841 1887 M 2853 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 447 1928 M 459 1925 I : [ 1 0 0 1 162 237 ] concat K 
+; N 459 1925 M 471 1924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 471 1924 M 483 1922 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1922 M 495 1920 I : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1920 M 507 1918 I : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1918 M 519 1916 I : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1916 M 531 1914 I : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1914 M 543 1913 I : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1913 M 555 1911 I : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1911 M 567 1909 I : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1909 M 579 1908 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1908 M 591 1906 I : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1906 M 603 1904 I : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1904 M 615 1903 I : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1903 M 627 1901 I : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1901 M 639 1900 I : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1900 M 652 1898 I : [ 1 0 0 1 162 237 ] concat K 
+; N 652 1898 M 664 1897 I : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1897 M 676 1895 I : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1895 M 688 1894 I : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1894 M 700 1893 I : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1893 M 712 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1891 M 724 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 724 1890 M 736 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 736 1889 M 748 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 748 1887 M 760 1886 I : [ 1 0 0 1 162 237 ] concat K 
+; N 760 1886 M 772 1885 I : [ 1 0 0 1 162 237 ] concat K 
+; N 772 1885 M 784 1883 I : [ 1 0 0 1 162 237 ] concat K 
+; N 784 1883 M 796 1882 I : [ 1 0 0 1 162 237 ] concat K 
+; N 796 1882 M 808 1881 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1881 M 820 1880 I : [ 1 0 0 1 162 237 ] concat K 
+; N 820 1880 M 832 1879 I : [ 1 0 0 1 162 237 ] concat K 
+; N 832 1879 M 844 1877 I : [ 1 0 0 1 162 237 ] concat K 
+; N 844 1877 M 856 1876 I : [ 1 0 0 1 162 237 ] concat K 
+; N 856 1876 M 868 1875 I : [ 1 0 0 1 162 237 ] concat K 
+; N 868 1875 M 880 1874 I : [ 1 0 0 1 162 237 ] concat K 
+; N 880 1874 M 892 1873 I : [ 1 0 0 1 162 237 ] concat K 
+; N 892 1873 M 904 1872 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1872 M 916 1871 I : [ 1 0 0 1 162 237 ] concat K 
+; N 916 1871 M 928 1870 I : [ 1 0 0 1 162 237 ] concat K 
+; N 928 1870 M 940 1869 I : [ 1 0 0 1 162 237 ] concat K 
+; N 940 1869 M 952 1867 I : [ 1 0 0 1 162 237 ] concat K 
+; N 952 1867 M 964 1866 I : [ 1 0 0 1 162 237 ] concat K 
+; N 964 1866 M 976 1865 I : [ 1 0 0 1 162 237 ] concat K 
+; N 976 1865 M 988 1864 I : [ 1 0 0 1 162 237 ] concat K 
+; N 988 1864 M 1000 1863 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1863 M 1012 1862 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1012 1862 M 1024 1861 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1024 1861 M 1036 1860 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1036 1860 M 1049 1859 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1049 1859 M 1061 1858 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1061 1858 M 1073 1858 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1073 1858 M 1085 1857 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1085 1857 M 1097 1856 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1856 M 1109 1855 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1109 1855 M 1121 1854 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1121 1854 M 1133 1853 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1133 1853 M 1145 1852 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1145 1852 M 1157 1851 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1157 1851 M 1169 1851 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1169 1851 M 1181 1850 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1181 1850 M 1193 1849 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1849 M 1205 1848 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1205 1848 M 1217 1847 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1217 1847 M 1229 1847 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1229 1847 M 1241 1846 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1241 1846 M 1253 1845 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1253 1845 M 1265 1844 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1265 1844 M 1277 1844 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1277 1844 M 1289 1843 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1843 M 1301 1842 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1301 1842 M 1313 1842 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1313 1842 M 1325 1841 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1325 1841 M 1337 1840 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1337 1840 M 1349 1840 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1349 1840 M 1361 1839 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1361 1839 M 1373 1839 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1373 1839 M 1385 1838 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1838 M 1397 1838 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1397 1838 M 1409 1837 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1409 1837 M 1421 1836 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1421 1836 M 1433 1836 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1433 1836 M 1445 1835 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1445 1835 M 1458 1835 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1458 1835 M 1470 1834 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1470 1834 M 1482 1834 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1482 1834 M 1494 1834 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1494 1834 M 1506 1833 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1506 1833 M 1518 1833 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1833 M 1530 1832 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1530 1832 M 1542 1832 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1542 1832 M 1554 1832 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1554 1832 M 1566 1831 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1566 1831 M 1578 1831 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1578 1831 M 1590 1830 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1590 1830 M 1602 1830 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1602 1830 M 1614 1830 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1830 M 1626 1829 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1626 1829 M 1638 1829 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1638 1829 M 1650 1829 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1650 1829 M 1662 1828 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1662 1828 M 1674 1828 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1674 1828 M 1686 1828 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1686 1828 M 1698 1828 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1698 1828 M 1710 1827 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1827 M 1722 1827 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1722 1827 M 1734 1827 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1734 1827 M 1746 1827 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1746 1827 M 1758 1826 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1758 1826 M 1770 1826 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 1826 M 1782 1826 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1782 1826 M 1794 1826 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1794 1826 M 1806 1825 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1806 1825 M 1818 1825 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1818 1825 M 1830 1825 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1830 1825 M 1842 1825 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1842 1825 M 1855 1825 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1855 1825 M 1867 1824 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1867 1824 M 1879 1824 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1879 1824 M 1891 1824 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1891 1824 M 1903 1824 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 1824 M 1915 1823 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1915 1823 M 1927 1823 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1927 1823 M 1939 1823 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1939 1823 M 1951 1823 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1951 1823 M 1963 1823 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1963 1823 M 1975 1822 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1975 1822 M 1987 1822 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1987 1822 M 1999 1822 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 1822 M 2011 1822 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2011 1822 M 2023 1822 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2023 1822 M 2035 1822 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2035 1822 M 2047 1821 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2047 1821 M 2059 1821 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2059 1821 M 2071 1821 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2071 1821 M 2083 1821 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2083 1821 M 2095 1821 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 1821 M 2107 1820 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2107 1820 M 2119 1820 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2119 1820 M 2131 1820 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2131 1820 M 2143 1820 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2143 1820 M 2155 1820 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2155 1820 M 2167 1820 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2167 1820 M 2179 1819 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2179 1819 M 2191 1819 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 1819 M 2203 1819 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2203 1819 M 2215 1819 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2215 1819 M 2227 1819 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2227 1819 M 2239 1819 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2239 1819 M 2252 1818 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2252 1818 M 2264 1818 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2264 1818 M 2276 1818 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2276 1818 M 2288 1818 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2288 1818 M 2300 1818 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2300 1818 M 2312 1818 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2312 1818 M 2324 1817 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 1817 M 2336 1817 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2336 1817 M 2348 1817 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2348 1817 M 2360 1817 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2360 1817 M 2372 1817 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2372 1817 M 2384 1817 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 1817 M 2396 1817 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2396 1817 M 2408 1816 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2408 1816 M 2420 1816 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2420 1816 M 2432 1816 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2432 1816 M 2444 1816 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2444 1816 M 2456 1816 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2456 1816 M 2468 1816 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2468 1816 M 2480 1816 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 1816 M 2492 1816 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2492 1816 M 2504 1815 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2504 1815 M 2516 1815 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2516 1815 M 2528 1815 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2528 1815 M 2540 1815 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2540 1815 M 2552 1815 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2552 1815 M 2564 1815 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2564 1815 M 2576 1815 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 1815 M 2588 1815 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2588 1815 M 2600 1815 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2600 1815 M 2612 1814 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2612 1814 M 2624 1814 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2624 1814 M 2636 1814 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2636 1814 M 2648 1814 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2648 1814 M 2661 1814 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2661 1814 M 2673 1814 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2673 1814 M 2685 1814 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2685 1814 M 2697 1814 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2697 1814 M 2709 1814 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 1814 M 2721 1813 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2721 1813 M 2733 1813 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2733 1813 M 2745 1813 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2745 1813 M 2757 1813 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2757 1813 M 2769 1813 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2769 1813 M 2781 1813 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2781 1813 M 2793 1813 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2793 1813 M 2805 1812 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 1812 M 2817 1812 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2817 1812 M 2829 1812 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2829 1812 M 2841 1812 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2841 1812 M 2853 1812 I : [ 1 0 0 1 162 237 ] concat K 
+; N 447 1928 M 459 1923 I : [ 1 0 0 1 162 237 ] concat K 
+; N 459 1923 M 471 1921 I : [ 1 0 0 1 162 237 ] concat K 
+; N 471 1921 M 483 1917 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1917 M 495 1914 I : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1914 M 507 1910 I : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1910 M 519 1907 I : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1907 M 531 1903 I : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1903 M 543 1900 I : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1900 M 555 1897 I : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1897 M 567 1894 I : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1894 M 579 1891 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1891 M 591 1888 I : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1888 M 603 1885 I : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1885 M 615 1882 I : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1882 M 627 1879 I : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1879 M 639 1876 I : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1876 M 652 1873 I : [ 1 0 0 1 162 237 ] concat K 
+; N 652 1873 M 664 1870 I : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1870 M 676 1867 I : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1867 M 688 1865 I : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1865 M 700 1862 I : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1862 M 712 1859 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1859 M 724 1857 I : [ 1 0 0 1 162 237 ] concat K 
+; N 724 1857 M 736 1854 I : [ 1 0 0 1 162 237 ] concat K 
+; N 736 1854 M 748 1852 I : [ 1 0 0 1 162 237 ] concat K 
+; N 748 1852 M 760 1849 I : [ 1 0 0 1 162 237 ] concat K 
+; N 760 1849 M 772 1847 I : [ 1 0 0 1 162 237 ] concat K 
+; N 772 1847 M 784 1844 I : [ 1 0 0 1 162 237 ] concat K 
+; N 784 1844 M 796 1842 I : [ 1 0 0 1 162 237 ] concat K 
+; N 796 1842 M 808 1840 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1840 M 820 1838 I : [ 1 0 0 1 162 237 ] concat K 
+; N 820 1838 M 832 1835 I : [ 1 0 0 1 162 237 ] concat K 
+; N 832 1835 M 844 1833 I : [ 1 0 0 1 162 237 ] concat K 
+; N 844 1833 M 856 1831 I : [ 1 0 0 1 162 237 ] concat K 
+; N 856 1831 M 868 1829 I : [ 1 0 0 1 162 237 ] concat K 
+; N 868 1829 M 880 1826 I : [ 1 0 0 1 162 237 ] concat K 
+; N 880 1826 M 892 1824 I : [ 1 0 0 1 162 237 ] concat K 
+; N 892 1824 M 904 1822 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1822 M 916 1820 I : [ 1 0 0 1 162 237 ] concat K 
+; N 916 1820 M 928 1818 I : [ 1 0 0 1 162 237 ] concat K 
+; N 928 1818 M 940 1816 I : [ 1 0 0 1 162 237 ] concat K 
+; N 940 1816 M 952 1814 I : [ 1 0 0 1 162 237 ] concat K 
+; N 952 1814 M 964 1812 I : [ 1 0 0 1 162 237 ] concat K 
+; N 964 1812 M 976 1810 I : [ 1 0 0 1 162 237 ] concat K 
+; N 976 1810 M 988 1808 I : [ 1 0 0 1 162 237 ] concat K 
+; N 988 1808 M 1000 1807 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1807 M 1012 1805 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1012 1805 M 1024 1803 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1024 1803 M 1036 1801 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1036 1801 M 1049 1799 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1049 1799 M 1061 1798 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1061 1798 M 1073 1796 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1073 1796 M 1085 1794 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1085 1794 M 1097 1792 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1792 M 1109 1791 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1109 1791 M 1121 1789 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1121 1789 M 1133 1787 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1133 1787 M 1145 1786 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1145 1786 M 1157 1784 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1157 1784 M 1169 1783 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1169 1783 M 1181 1781 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1181 1781 M 1193 1779 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1779 M 1205 1778 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1205 1778 M 1217 1776 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1217 1776 M 1229 1775 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1229 1775 M 1241 1773 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1241 1773 M 1253 1772 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1253 1772 M 1265 1771 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1265 1771 M 1277 1769 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1277 1769 M 1289 1768 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1768 M 1301 1766 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1301 1766 M 1313 1765 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1313 1765 M 1325 1764 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1325 1764 M 1337 1762 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1337 1762 M 1349 1761 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1349 1761 M 1361 1760 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1361 1760 M 1373 1759 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1373 1759 M 1385 1757 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1757 M 1397 1756 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1397 1756 M 1409 1755 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1409 1755 M 1421 1754 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1421 1754 M 1433 1752 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1433 1752 M 1445 1751 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1445 1751 M 1458 1750 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1458 1750 M 1470 1749 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1470 1749 M 1482 1748 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1482 1748 M 1494 1747 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1494 1747 M 1506 1746 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1506 1746 M 1518 1745 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1745 M 1530 1744 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1530 1744 M 1542 1743 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1542 1743 M 1554 1742 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1554 1742 M 1566 1741 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1566 1741 M 1578 1740 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1578 1740 M 1590 1739 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1590 1739 M 1602 1738 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1602 1738 M 1614 1737 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1737 M 1626 1736 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1626 1736 M 1638 1735 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1638 1735 M 1650 1734 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1650 1734 M 1662 1734 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1662 1734 M 1674 1733 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1674 1733 M 1686 1732 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1686 1732 M 1698 1731 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1698 1731 M 1710 1730 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1730 M 1722 1730 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1722 1730 M 1734 1729 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1734 1729 M 1746 1728 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1746 1728 M 1758 1727 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1758 1727 M 1770 1727 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 1727 M 1782 1726 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1782 1726 M 1794 1725 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1794 1725 M 1806 1725 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1806 1725 M 1818 1724 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1818 1724 M 1830 1723 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1830 1723 M 1842 1723 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1842 1723 M 1855 1722 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1855 1722 M 1867 1721 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1867 1721 M 1879 1721 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1879 1721 M 1891 1720 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1891 1720 M 1903 1720 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 1720 M 1915 1719 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1915 1719 M 1927 1719 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1927 1719 M 1939 1718 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1939 1718 M 1951 1717 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1951 1717 M 1963 1717 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1963 1717 M 1975 1716 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1975 1716 M 1987 1716 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1987 1716 M 1999 1715 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 1715 M 2011 1715 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2011 1715 M 2023 1714 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2023 1714 M 2035 1714 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2035 1714 M 2047 1713 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2047 1713 M 2059 1713 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2059 1713 M 2071 1712 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2071 1712 M 2083 1712 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2083 1712 M 2095 1712 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 1712 M 2107 1711 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2107 1711 M 2119 1711 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2119 1711 M 2131 1710 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2131 1710 M 2143 1710 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2143 1710 M 2155 1709 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2155 1709 M 2167 1709 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2167 1709 M 2179 1709 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2179 1709 M 2191 1708 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 1708 M 2203 1708 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2203 1708 M 2215 1707 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2215 1707 M 2227 1707 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2227 1707 M 2239 1707 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2239 1707 M 2252 1706 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2252 1706 M 2264 1706 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2264 1706 M 2276 1705 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2276 1705 M 2288 1705 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2288 1705 M 2300 1705 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2300 1705 M 2312 1704 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2312 1704 M 2324 1704 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 1704 M 2336 1704 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2336 1704 M 2348 1703 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2348 1703 M 2360 1703 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2360 1703 M 2372 1702 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2372 1702 M 2384 1702 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 1702 M 2396 1702 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2396 1702 M 2408 1701 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2408 1701 M 2420 1701 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2420 1701 M 2432 1701 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2432 1701 M 2444 1701 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2444 1701 M 2456 1700 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2456 1700 M 2468 1700 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2468 1700 M 2480 1700 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 1700 M 2492 1699 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2492 1699 M 2504 1699 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2504 1699 M 2516 1699 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2516 1699 M 2528 1698 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2528 1698 M 2540 1698 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2540 1698 M 2552 1698 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2552 1698 M 2564 1698 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2564 1698 M 2576 1697 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 1697 M 2588 1697 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2588 1697 M 2600 1697 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2600 1697 M 2612 1697 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2612 1697 M 2624 1696 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2624 1696 M 2636 1696 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2636 1696 M 2648 1696 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2648 1696 M 2661 1696 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2661 1696 M 2673 1695 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2673 1695 M 2685 1695 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2685 1695 M 2697 1695 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2697 1695 M 2709 1695 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 1695 M 2721 1694 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2721 1694 M 2733 1694 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2733 1694 M 2745 1694 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2745 1694 M 2757 1694 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2757 1694 M 2769 1693 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2769 1693 M 2781 1693 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2781 1693 M 2793 1693 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2793 1693 M 2805 1692 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 1692 M 2817 1692 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2817 1692 M 2829 1692 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2829 1692 M 2841 1692 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2841 1692 M 2853 1691 I : [ 1 0 0 1 162 237 ] concat K 
+; N 447 1928 M 459 1920 I : [ 1 0 0 1 162 237 ] concat K 
+; N 459 1920 M 471 1917 I : [ 1 0 0 1 162 237 ] concat K 
+; N 471 1917 M 483 1911 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1911 M 495 1906 I : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1906 M 507 1901 I : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1901 M 519 1895 I : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1895 M 531 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1890 M 543 1885 I : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1885 M 555 1880 I : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1880 M 567 1875 I : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1875 M 579 1870 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1870 M 591 1865 I : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1865 M 603 1860 I : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1860 M 615 1855 I : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1855 M 627 1850 I : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1850 M 639 1846 I : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1846 M 652 1841 I : [ 1 0 0 1 162 237 ] concat K 
+; N 652 1841 M 664 1837 I : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1837 M 676 1832 I : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1832 M 688 1828 I : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1828 M 700 1824 I : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1824 M 712 1819 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1819 M 724 1815 I : [ 1 0 0 1 162 237 ] concat K 
+; N 724 1815 M 736 1811 I : [ 1 0 0 1 162 237 ] concat K 
+; N 736 1811 M 748 1807 I : [ 1 0 0 1 162 237 ] concat K 
+; N 748 1807 M 760 1802 I : [ 1 0 0 1 162 237 ] concat K 
+; N 760 1802 M 772 1798 I : [ 1 0 0 1 162 237 ] concat K 
+; N 772 1798 M 784 1794 I : [ 1 0 0 1 162 237 ] concat K 
+; N 784 1794 M 796 1791 I : [ 1 0 0 1 162 237 ] concat K 
+; N 796 1791 M 808 1787 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1787 M 820 1783 I : [ 1 0 0 1 162 237 ] concat K 
+; N 820 1783 M 832 1779 I : [ 1 0 0 1 162 237 ] concat K 
+; N 832 1779 M 844 1775 I : [ 1 0 0 1 162 237 ] concat K 
+; N 844 1775 M 856 1772 I : [ 1 0 0 1 162 237 ] concat K 
+; N 856 1772 M 868 1768 I : [ 1 0 0 1 162 237 ] concat K 
+; N 868 1768 M 880 1764 I : [ 1 0 0 1 162 237 ] concat K 
+; N 880 1764 M 892 1761 I : [ 1 0 0 1 162 237 ] concat K 
+; N 892 1761 M 904 1757 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1757 M 916 1754 I : [ 1 0 0 1 162 237 ] concat K 
+; N 916 1754 M 928 1751 I : [ 1 0 0 1 162 237 ] concat K 
+; N 928 1751 M 940 1747 I : [ 1 0 0 1 162 237 ] concat K 
+; N 940 1747 M 952 1744 I : [ 1 0 0 1 162 237 ] concat K 
+; N 952 1744 M 964 1741 I : [ 1 0 0 1 162 237 ] concat K 
+; N 964 1741 M 976 1737 I : [ 1 0 0 1 162 237 ] concat K 
+; N 976 1737 M 988 1734 I : [ 1 0 0 1 162 237 ] concat K 
+; N 988 1734 M 1000 1731 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1731 M 1012 1728 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1012 1728 M 1024 1725 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1024 1725 M 1036 1722 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1036 1722 M 1049 1719 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1049 1719 M 1061 1716 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1061 1716 M 1073 1713 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1073 1713 M 1085 1710 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1085 1710 M 1097 1707 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1707 M 1109 1704 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1109 1704 M 1121 1702 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1121 1702 M 1133 1699 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1133 1699 M 1145 1696 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1145 1696 M 1157 1694 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1157 1694 M 1169 1691 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1169 1691 M 1181 1688 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1181 1688 M 1193 1686 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1686 M 1205 1683 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1205 1683 M 1217 1681 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1217 1681 M 1229 1678 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1229 1678 M 1241 1676 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1241 1676 M 1253 1673 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1253 1673 M 1265 1671 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1265 1671 M 1277 1669 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1277 1669 M 1289 1666 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1666 M 1301 1664 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1301 1664 M 1313 1662 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1313 1662 M 1325 1659 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1325 1659 M 1337 1657 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1337 1657 M 1349 1655 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1349 1655 M 1361 1653 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1361 1653 M 1373 1651 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1373 1651 M 1385 1648 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1648 M 1397 1646 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1397 1646 M 1409 1644 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1409 1644 M 1421 1642 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1421 1642 M 1433 1640 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1433 1640 M 1445 1638 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1445 1638 M 1458 1636 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1458 1636 M 1470 1634 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1470 1634 M 1482 1632 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1482 1632 M 1494 1631 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1494 1631 M 1506 1629 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1506 1629 M 1518 1627 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1627 M 1530 1625 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1530 1625 M 1542 1623 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1542 1623 M 1554 1621 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1554 1621 M 1566 1620 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1566 1620 M 1578 1618 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1578 1618 M 1590 1616 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1590 1616 M 1602 1614 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1602 1614 M 1614 1613 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1613 M 1626 1611 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1626 1611 M 1638 1609 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1638 1609 M 1650 1608 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1650 1608 M 1662 1606 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1662 1606 M 1674 1605 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1674 1605 M 1686 1603 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1686 1603 M 1698 1602 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1698 1602 M 1710 1600 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1600 M 1722 1599 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1722 1599 M 1734 1597 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1734 1597 M 1746 1596 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1746 1596 M 1758 1594 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1758 1594 M 1770 1593 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 1593 M 1782 1591 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1782 1591 M 1794 1590 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1794 1590 M 1806 1589 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1806 1589 M 1818 1587 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1818 1587 M 1830 1586 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1830 1586 M 1842 1585 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1842 1585 M 1855 1584 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1855 1584 M 1867 1582 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1867 1582 M 1879 1581 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1879 1581 M 1891 1580 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1891 1580 M 1903 1579 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 1579 M 1915 1578 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1915 1578 M 1927 1576 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1927 1576 M 1939 1575 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1939 1575 M 1951 1574 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1951 1574 M 1963 1573 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1963 1573 M 1975 1572 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1975 1572 M 1987 1571 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1987 1571 M 1999 1570 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 1570 M 2011 1569 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2011 1569 M 2023 1568 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2023 1568 M 2035 1567 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2035 1567 M 2047 1566 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2047 1566 M 2059 1565 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2059 1565 M 2071 1564 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2071 1564 M 2083 1563 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2083 1563 M 2095 1562 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 1562 M 2107 1561 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2107 1561 M 2119 1560 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2119 1560 M 2131 1559 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2131 1559 M 2143 1558 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2143 1558 M 2155 1557 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2155 1557 M 2167 1556 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2167 1556 M 2179 1555 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2179 1555 M 2191 1554 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 1554 M 2203 1554 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2203 1554 M 2215 1553 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2215 1553 M 2227 1552 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2227 1552 M 2239 1551 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2239 1551 M 2252 1550 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2252 1550 M 2264 1549 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2264 1549 M 2276 1549 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2276 1549 M 2288 1548 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2288 1548 M 2300 1547 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2300 1547 M 2312 1546 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2312 1546 M 2324 1546 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 1546 M 2336 1545 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2336 1545 M 2348 1544 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2348 1544 M 2360 1543 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2360 1543 M 2372 1543 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2372 1543 M 2384 1542 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 1542 M 2396 1541 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2396 1541 M 2408 1540 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2408 1540 M 2420 1540 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2420 1540 M 2432 1539 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2432 1539 M 2444 1538 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2444 1538 M 2456 1538 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2456 1538 M 2468 1537 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2468 1537 M 2480 1537 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 1537 M 2492 1536 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2492 1536 M 2504 1535 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2504 1535 M 2516 1535 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2516 1535 M 2528 1534 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2528 1534 M 2540 1534 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2540 1534 M 2552 1533 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2552 1533 M 2564 1533 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2564 1533 M 2576 1532 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 1532 M 2588 1531 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2588 1531 M 2600 1531 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2600 1531 M 2612 1530 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2612 1530 M 2624 1530 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2624 1530 M 2636 1529 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2636 1529 M 2648 1529 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2648 1529 M 2661 1528 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2661 1528 M 2673 1528 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2673 1528 M 2685 1527 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2685 1527 M 2697 1527 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2697 1527 M 2709 1526 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 1526 M 2721 1526 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2721 1526 M 2733 1525 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2733 1525 M 2745 1525 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2745 1525 M 2757 1524 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2757 1524 M 2769 1524 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2769 1524 M 2781 1523 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2781 1523 M 2793 1523 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2793 1523 M 2805 1522 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 1522 M 2817 1522 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2817 1522 M 2829 1521 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2829 1521 M 2841 1521 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2841 1521 M 2853 1520 I : [ 1 0 0 1 162 237 ] concat K 
+; N 447 1928 M 459 1916 I : [ 1 0 0 1 162 237 ] concat K 
+; N 459 1916 M 471 1913 I : [ 1 0 0 1 162 237 ] concat K 
+; N 471 1913 M 483 1905 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1905 M 495 1897 I : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1897 M 507 1889 I : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1889 M 519 1882 I : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1882 M 531 1874 I : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1874 M 543 1867 I : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1867 M 555 1860 I : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1860 M 567 1853 I : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1853 M 579 1846 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1846 M 591 1839 I : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1839 M 603 1832 I : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1832 M 615 1825 I : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1825 M 627 1818 I : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1818 M 639 1811 I : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1811 M 652 1804 I : [ 1 0 0 1 162 237 ] concat K 
+; N 652 1804 M 664 1798 I : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1798 M 676 1791 I : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1791 M 688 1785 I : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1785 M 700 1779 I : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1779 M 712 1772 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1772 M 724 1766 I : [ 1 0 0 1 162 237 ] concat K 
+; N 724 1766 M 736 1760 I : [ 1 0 0 1 162 237 ] concat K 
+; N 736 1760 M 748 1754 I : [ 1 0 0 1 162 237 ] concat K 
+; N 748 1754 M 760 1748 I : [ 1 0 0 1 162 237 ] concat K 
+; N 760 1748 M 772 1742 I : [ 1 0 0 1 162 237 ] concat K 
+; N 772 1742 M 784 1736 I : [ 1 0 0 1 162 237 ] concat K 
+; N 784 1736 M 796 1730 I : [ 1 0 0 1 162 237 ] concat K 
+; N 796 1730 M 808 1724 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1724 M 820 1718 I : [ 1 0 0 1 162 237 ] concat K 
+; N 820 1718 M 832 1713 I : [ 1 0 0 1 162 237 ] concat K 
+; N 832 1713 M 844 1707 I : [ 1 0 0 1 162 237 ] concat K 
+; N 844 1707 M 856 1702 I : [ 1 0 0 1 162 237 ] concat K 
+; N 856 1702 M 868 1696 I : [ 1 0 0 1 162 237 ] concat K 
+; N 868 1696 M 880 1691 I : [ 1 0 0 1 162 237 ] concat K 
+; N 880 1691 M 892 1685 I : [ 1 0 0 1 162 237 ] concat K 
+; N 892 1685 M 904 1680 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1680 M 916 1675 I : [ 1 0 0 1 162 237 ] concat K 
+; N 916 1675 M 928 1670 I : [ 1 0 0 1 162 237 ] concat K 
+; N 928 1670 M 940 1665 I : [ 1 0 0 1 162 237 ] concat K 
+; N 940 1665 M 952 1659 I : [ 1 0 0 1 162 237 ] concat K 
+; N 952 1659 M 964 1654 I : [ 1 0 0 1 162 237 ] concat K 
+; N 964 1654 M 976 1650 I : [ 1 0 0 1 162 237 ] concat K 
+; N 976 1650 M 988 1645 I : [ 1 0 0 1 162 237 ] concat K 
+; N 988 1645 M 1000 1640 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1640 M 1012 1635 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1012 1635 M 1024 1630 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1024 1630 M 1036 1626 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1036 1626 M 1049 1621 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1049 1621 M 1061 1617 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1061 1617 M 1073 1612 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1073 1612 M 1085 1608 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1085 1608 M 1097 1603 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1603 M 1109 1599 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1109 1599 M 1121 1594 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1121 1594 M 1133 1590 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1133 1590 M 1145 1586 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1145 1586 M 1157 1582 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1157 1582 M 1169 1578 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1169 1578 M 1181 1574 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1181 1574 M 1193 1570 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1570 M 1205 1566 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1205 1566 M 1217 1562 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1217 1562 M 1229 1558 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1229 1558 M 1241 1554 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1241 1554 M 1253 1550 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1253 1550 M 1265 1547 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1265 1547 M 1277 1543 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1277 1543 M 1289 1539 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1539 M 1301 1536 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1301 1536 M 1313 1532 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1313 1532 M 1325 1529 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1325 1529 M 1337 1525 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1337 1525 M 1349 1522 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1349 1522 M 1361 1518 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1361 1518 M 1373 1515 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1373 1515 M 1385 1512 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1512 M 1397 1508 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1397 1508 M 1409 1505 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1409 1505 M 1421 1502 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1421 1502 M 1433 1499 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1433 1499 M 1445 1495 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1445 1495 M 1458 1492 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1458 1492 M 1470 1489 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1470 1489 M 1482 1486 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1482 1486 M 1494 1483 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1494 1483 M 1506 1480 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1506 1480 M 1518 1477 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1477 M 1530 1474 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1530 1474 M 1542 1472 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1542 1472 M 1554 1469 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1554 1469 M 1566 1466 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1566 1466 M 1578 1463 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1578 1463 M 1590 1460 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1590 1460 M 1602 1458 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1602 1458 M 1614 1455 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1455 M 1626 1452 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1626 1452 M 1638 1450 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1638 1450 M 1650 1447 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1650 1447 M 1662 1445 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1662 1445 M 1674 1442 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1674 1442 M 1686 1440 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1686 1440 M 1698 1437 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1698 1437 M 1710 1435 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1435 M 1722 1432 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1722 1432 M 1734 1430 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1734 1430 M 1746 1428 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1746 1428 M 1758 1425 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1758 1425 M 1770 1423 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 1423 M 1782 1421 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1782 1421 M 1794 1418 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1794 1418 M 1806 1416 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1806 1416 M 1818 1414 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1818 1414 M 1830 1412 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1830 1412 M 1842 1410 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1842 1410 M 1855 1407 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1855 1407 M 1867 1405 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1867 1405 M 1879 1403 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1879 1403 M 1891 1401 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1891 1401 M 1903 1399 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 1399 M 1915 1397 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1915 1397 M 1927 1395 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1927 1395 M 1939 1393 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1939 1393 M 1951 1391 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1951 1391 M 1963 1389 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1963 1389 M 1975 1388 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1975 1388 M 1987 1386 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1987 1386 M 1999 1384 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 1384 M 2011 1382 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2011 1382 M 2023 1380 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2023 1380 M 2035 1378 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2035 1378 M 2047 1377 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2047 1377 M 2059 1375 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2059 1375 M 2071 1373 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2071 1373 M 2083 1372 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2083 1372 M 2095 1370 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 1370 M 2107 1368 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2107 1368 M 2119 1366 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2119 1366 M 2131 1365 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2131 1365 M 2143 1363 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2143 1363 M 2155 1362 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2155 1362 M 2167 1360 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2167 1360 M 2179 1359 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2179 1359 M 2191 1357 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 1357 M 2203 1356 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2203 1356 M 2215 1354 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2215 1354 M 2227 1353 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2227 1353 M 2239 1351 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2239 1351 M 2252 1350 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2252 1350 M 2264 1348 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2264 1348 M 2276 1347 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2276 1347 M 2288 1345 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2288 1345 M 2300 1344 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2300 1344 M 2312 1343 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2312 1343 M 2324 1341 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 1341 M 2336 1340 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2336 1340 M 2348 1339 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2348 1339 M 2360 1337 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2360 1337 M 2372 1336 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2372 1336 M 2384 1335 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 1335 M 2396 1334 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2396 1334 M 2408 1332 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2408 1332 M 2420 1331 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2420 1331 M 2432 1330 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2432 1330 M 2444 1329 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2444 1329 M 2456 1328 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2456 1328 M 2468 1326 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2468 1326 M 2480 1325 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 1325 M 2492 1324 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2492 1324 M 2504 1323 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2504 1323 M 2516 1322 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2516 1322 M 2528 1321 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2528 1321 M 2540 1320 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2540 1320 M 2552 1319 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2552 1319 M 2564 1318 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2564 1318 M 2576 1317 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 1317 M 2588 1316 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2588 1316 M 2600 1315 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2600 1315 M 2612 1314 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2612 1314 M 2624 1313 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2624 1313 M 2636 1312 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2636 1312 M 2648 1311 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2648 1311 M 2661 1310 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2661 1310 M 2673 1309 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2673 1309 M 2685 1308 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2685 1308 M 2697 1307 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2697 1307 M 2709 1306 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 1306 M 2721 1305 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2721 1305 M 2733 1304 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2733 1304 M 2745 1304 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2745 1304 M 2757 1303 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2757 1303 M 2769 1302 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2769 1302 M 2781 1301 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2781 1301 M 2793 1300 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2793 1300 M 2805 1299 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 1299 M 2817 1298 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2817 1298 M 2829 1298 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2829 1298 M 2841 1297 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2841 1297 M 2853 1296 I : [ 1 0 0 1 162 237 ] concat K 
+; N 447 1928 M 459 1912 I : [ 1 0 0 1 162 237 ] concat K 
+; N 459 1912 M 471 1908 I : [ 1 0 0 1 162 237 ] concat K 
+; N 471 1908 M 483 1898 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1898 M 495 1887 I : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1887 M 507 1877 I : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1877 M 519 1867 I : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1867 M 531 1857 I : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1857 M 543 1848 I : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1848 M 555 1838 I : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1838 M 567 1829 I : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1829 M 579 1819 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1819 M 591 1810 I : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1810 M 603 1800 I : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1800 M 615 1791 I : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1791 M 627 1782 I : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1782 M 639 1773 I : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1773 M 652 1764 I : [ 1 0 0 1 162 237 ] concat K 
+; N 652 1764 M 664 1755 I : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1755 M 676 1746 I : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1746 M 688 1737 I : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1737 M 700 1729 I : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1729 M 712 1720 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1720 M 724 1711 I : [ 1 0 0 1 162 237 ] concat K 
+; N 724 1711 M 736 1703 I : [ 1 0 0 1 162 237 ] concat K 
+; N 736 1703 M 748 1694 I : [ 1 0 0 1 162 237 ] concat K 
+; N 748 1694 M 760 1686 I : [ 1 0 0 1 162 237 ] concat K 
+; N 760 1686 M 772 1678 I : [ 1 0 0 1 162 237 ] concat K 
+; N 772 1678 M 784 1670 I : [ 1 0 0 1 162 237 ] concat K 
+; N 784 1670 M 796 1662 I : [ 1 0 0 1 162 237 ] concat K 
+; N 796 1662 M 808 1654 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1654 M 820 1646 I : [ 1 0 0 1 162 237 ] concat K 
+; N 820 1646 M 832 1638 I : [ 1 0 0 1 162 237 ] concat K 
+; N 832 1638 M 844 1630 I : [ 1 0 0 1 162 237 ] concat K 
+; N 844 1630 M 856 1622 I : [ 1 0 0 1 162 237 ] concat K 
+; N 856 1622 M 868 1615 I : [ 1 0 0 1 162 237 ] concat K 
+; N 868 1615 M 880 1607 I : [ 1 0 0 1 162 237 ] concat K 
+; N 880 1607 M 892 1600 I : [ 1 0 0 1 162 237 ] concat K 
+; N 892 1600 M 904 1592 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1592 M 916 1585 I : [ 1 0 0 1 162 237 ] concat K 
+; N 916 1585 M 928 1578 I : [ 1 0 0 1 162 237 ] concat K 
+; N 928 1578 M 940 1571 I : [ 1 0 0 1 162 237 ] concat K 
+; N 940 1571 M 952 1563 I : [ 1 0 0 1 162 237 ] concat K 
+; N 952 1563 M 964 1556 I : [ 1 0 0 1 162 237 ] concat K 
+; N 964 1556 M 976 1549 I : [ 1 0 0 1 162 237 ] concat K 
+; N 976 1549 M 988 1542 I : [ 1 0 0 1 162 237 ] concat K 
+; N 988 1542 M 1000 1535 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1535 M 1012 1529 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1012 1529 M 1024 1522 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1024 1522 M 1036 1515 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1036 1515 M 1049 1509 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1049 1509 M 1061 1502 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1061 1502 M 1073 1496 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1073 1496 M 1085 1489 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1085 1489 M 1097 1483 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1483 M 1109 1477 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1109 1477 M 1121 1470 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1121 1470 M 1133 1464 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1133 1464 M 1145 1458 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1145 1458 M 1157 1452 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1157 1452 M 1169 1446 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1169 1446 M 1181 1441 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1181 1441 M 1193 1435 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1435 M 1205 1429 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1205 1429 M 1217 1423 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1217 1423 M 1229 1417 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1229 1417 M 1241 1412 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1241 1412 M 1253 1406 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1253 1406 M 1265 1401 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1265 1401 M 1277 1396 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1277 1396 M 1289 1390 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1390 M 1301 1385 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1301 1385 M 1313 1380 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1313 1380 M 1325 1374 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1325 1374 M 1337 1369 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1337 1369 M 1349 1364 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1349 1364 M 1361 1359 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1361 1359 M 1373 1354 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1373 1354 M 1385 1349 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1349 M 1397 1345 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1397 1345 M 1409 1340 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1409 1340 M 1421 1335 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1421 1335 M 1433 1330 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1433 1330 M 1445 1326 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1445 1326 M 1458 1321 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1458 1321 M 1470 1316 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1470 1316 M 1482 1312 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1482 1312 M 1494 1307 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1494 1307 M 1506 1303 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1506 1303 M 1518 1299 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1299 M 1530 1294 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1530 1294 M 1542 1290 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1542 1290 M 1554 1286 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1554 1286 M 1566 1282 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1566 1282 M 1578 1277 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1578 1277 M 1590 1273 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1590 1273 M 1602 1269 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1602 1269 M 1614 1265 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1265 M 1626 1261 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1626 1261 M 1638 1257 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1638 1257 M 1650 1253 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1650 1253 M 1662 1250 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1662 1250 M 1674 1246 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1674 1246 M 1686 1242 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1686 1242 M 1698 1238 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1698 1238 M 1710 1235 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1235 M 1722 1231 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1722 1231 M 1734 1227 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1734 1227 M 1746 1224 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1746 1224 M 1758 1220 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1758 1220 M 1770 1217 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 1217 M 1782 1213 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1782 1213 M 1794 1210 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1794 1210 M 1806 1207 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1806 1207 M 1818 1203 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1818 1203 M 1830 1200 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1830 1200 M 1842 1197 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1842 1197 M 1855 1193 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1855 1193 M 1867 1190 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1867 1190 M 1879 1187 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1879 1187 M 1891 1184 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1891 1184 M 1903 1181 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 1181 M 1915 1178 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1915 1178 M 1927 1175 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1927 1175 M 1939 1172 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1939 1172 M 1951 1169 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1951 1169 M 1963 1166 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1963 1166 M 1975 1163 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1975 1163 M 1987 1160 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1987 1160 M 1999 1157 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 1157 M 2011 1154 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2011 1154 M 2023 1151 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2023 1151 M 2035 1149 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2035 1149 M 2047 1146 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2047 1146 M 2059 1143 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2059 1143 M 2071 1140 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2071 1140 M 2083 1138 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2083 1138 M 2095 1135 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 1135 M 2107 1133 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2107 1133 M 2119 1130 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2119 1130 M 2131 1127 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2131 1127 M 2143 1125 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2143 1125 M 2155 1123 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2155 1123 M 2167 1120 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2167 1120 M 2179 1118 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2179 1118 M 2191 1115 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 1115 M 2203 1113 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2203 1113 M 2215 1110 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2215 1110 M 2227 1108 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2227 1108 M 2239 1106 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2239 1106 M 2252 1103 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2252 1103 M 2264 1101 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2264 1101 M 2276 1099 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2276 1099 M 2288 1097 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2288 1097 M 2300 1095 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2300 1095 M 2312 1092 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2312 1092 M 2324 1090 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 1090 M 2336 1088 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2336 1088 M 2348 1086 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2348 1086 M 2360 1084 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2360 1084 M 2372 1082 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2372 1082 M 2384 1080 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 1080 M 2396 1078 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2396 1078 M 2408 1076 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2408 1076 M 2420 1074 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2420 1074 M 2432 1072 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2432 1072 M 2444 1070 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2444 1070 M 2456 1068 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2456 1068 M 2468 1066 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2468 1066 M 2480 1064 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 1064 M 2492 1062 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2492 1062 M 2504 1060 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2504 1060 M 2516 1059 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2516 1059 M 2528 1057 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2528 1057 M 2540 1055 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2540 1055 M 2552 1053 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2552 1053 M 2564 1051 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2564 1051 M 2576 1050 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 1050 M 2588 1048 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2588 1048 M 2600 1046 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2600 1046 M 2612 1045 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2612 1045 M 2624 1043 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2624 1043 M 2636 1042 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2636 1042 M 2648 1040 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2648 1040 M 2661 1039 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2661 1039 M 2673 1037 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2673 1037 M 2685 1035 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2685 1035 M 2697 1034 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2697 1034 M 2709 1032 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 1032 M 2721 1031 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2721 1031 M 2733 1030 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2733 1030 M 2745 1028 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2745 1028 M 2757 1027 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2757 1027 M 2769 1025 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2769 1025 M 2781 1024 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2781 1024 M 2793 1022 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2793 1022 M 2805 1021 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 1021 M 2817 1020 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2817 1020 M 2829 1018 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2829 1018 M 2841 1017 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2841 1017 M 2853 1015 I : [ 1 0 0 1 162 237 ] concat K 
+; N 447 1928 M 459 1909 I : [ 1 0 0 1 162 237 ] concat K 
+; N 459 1909 M 471 1903 I : [ 1 0 0 1 162 237 ] concat K 
+; N 471 1903 M 483 1890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1890 M 495 1877 I : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1877 M 507 1864 I : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1864 M 519 1852 I : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1852 M 531 1839 I : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1839 M 543 1827 I : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1827 M 555 1815 I : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1815 M 567 1803 I : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1803 M 579 1791 I : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1791 M 591 1779 I : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1779 M 603 1767 I : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1767 M 615 1755 I : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1755 M 627 1743 I : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1743 M 639 1731 I : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1731 M 652 1719 I : [ 1 0 0 1 162 237 ] concat K 
+; N 652 1719 M 664 1708 I : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1708 M 676 1697 I : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1697 M 688 1686 I : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1686 M 700 1674 I : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1674 M 712 1663 I : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1663 M 724 1652 I : [ 1 0 0 1 162 237 ] concat K 
+; N 724 1652 M 736 1641 I : [ 1 0 0 1 162 237 ] concat K 
+; N 736 1641 M 748 1630 I : [ 1 0 0 1 162 237 ] concat K 
+; N 748 1630 M 760 1619 I : [ 1 0 0 1 162 237 ] concat K 
+; N 760 1619 M 772 1608 I : [ 1 0 0 1 162 237 ] concat K 
+; N 772 1608 M 784 1598 I : [ 1 0 0 1 162 237 ] concat K 
+; N 784 1598 M 796 1587 I : [ 1 0 0 1 162 237 ] concat K 
+; N 796 1587 M 808 1577 I : [ 1 0 0 1 162 237 ] concat K 
+; N 808 1577 M 820 1566 I : [ 1 0 0 1 162 237 ] concat K 
+; N 820 1566 M 832 1556 I : [ 1 0 0 1 162 237 ] concat K 
+; N 832 1556 M 844 1546 I : [ 1 0 0 1 162 237 ] concat K 
+; N 844 1546 M 856 1535 I : [ 1 0 0 1 162 237 ] concat K 
+; N 856 1535 M 868 1525 I : [ 1 0 0 1 162 237 ] concat K 
+; N 868 1525 M 880 1515 I : [ 1 0 0 1 162 237 ] concat K 
+; N 880 1515 M 892 1505 I : [ 1 0 0 1 162 237 ] concat K 
+; N 892 1505 M 904 1495 I : [ 1 0 0 1 162 237 ] concat K 
+; N 904 1495 M 916 1486 I : [ 1 0 0 1 162 237 ] concat K 
+; N 916 1486 M 928 1476 I : [ 1 0 0 1 162 237 ] concat K 
+; N 928 1476 M 940 1466 I : [ 1 0 0 1 162 237 ] concat K 
+; N 940 1466 M 952 1457 I : [ 1 0 0 1 162 237 ] concat K 
+; N 952 1457 M 964 1447 I : [ 1 0 0 1 162 237 ] concat K 
+; N 964 1447 M 976 1438 I : [ 1 0 0 1 162 237 ] concat K 
+; N 976 1438 M 988 1429 I : [ 1 0 0 1 162 237 ] concat K 
+; N 988 1429 M 1000 1419 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1000 1419 M 1012 1410 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1012 1410 M 1024 1401 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1024 1401 M 1036 1392 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1036 1392 M 1049 1383 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1049 1383 M 1061 1375 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1061 1375 M 1073 1366 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1073 1366 M 1085 1357 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1085 1357 M 1097 1349 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1097 1349 M 1109 1340 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1109 1340 M 1121 1332 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1121 1332 M 1133 1323 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1133 1323 M 1145 1315 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1145 1315 M 1157 1307 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1157 1307 M 1169 1299 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1169 1299 M 1181 1291 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1181 1291 M 1193 1283 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1193 1283 M 1205 1275 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1205 1275 M 1217 1267 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1217 1267 M 1229 1259 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1229 1259 M 1241 1251 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1241 1251 M 1253 1244 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1253 1244 M 1265 1236 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1265 1236 M 1277 1229 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1277 1229 M 1289 1221 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1289 1221 M 1301 1214 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1301 1214 M 1313 1207 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1313 1207 M 1325 1200 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1325 1200 M 1337 1192 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1337 1192 M 1349 1185 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1349 1185 M 1361 1178 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1361 1178 M 1373 1171 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1373 1171 M 1385 1165 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1385 1165 M 1397 1158 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1397 1158 M 1409 1151 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1409 1151 M 1421 1144 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1421 1144 M 1433 1138 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1433 1138 M 1445 1131 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1445 1131 M 1458 1125 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1458 1125 M 1470 1118 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1470 1118 M 1482 1112 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1482 1112 M 1494 1106 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1494 1106 M 1506 1099 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1506 1099 M 1518 1093 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1518 1093 M 1530 1087 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1530 1087 M 1542 1081 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1542 1081 M 1554 1075 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1554 1075 M 1566 1069 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1566 1069 M 1578 1063 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1578 1063 M 1590 1057 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1590 1057 M 1602 1051 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1602 1051 M 1614 1046 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1614 1046 M 1626 1040 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1626 1040 M 1638 1035 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1638 1035 M 1650 1029 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1650 1029 M 1662 1024 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1662 1024 M 1674 1018 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1674 1018 M 1686 1013 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1686 1013 M 1698 1007 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1698 1007 M 1710 1002 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1710 1002 M 1722 997 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1722 997 M 1734 992 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1734 992 M 1746 987 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1746 987 M 1758 982 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1758 982 M 1770 976 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1770 976 M 1782 971 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1782 971 M 1794 967 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1794 967 M 1806 962 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1806 962 M 1818 957 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1818 957 M 1830 952 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1830 952 M 1842 947 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1842 947 M 1855 943 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1855 943 M 1867 938 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1867 938 M 1879 933 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1879 933 M 1891 929 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1891 929 M 1903 924 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1903 924 M 1915 920 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1915 920 M 1927 915 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1927 915 M 1939 911 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1939 911 M 1951 907 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1951 907 M 1963 902 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1963 902 M 1975 898 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1975 898 M 1987 894 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1987 894 M 1999 890 I : [ 1 0 0 1 162 237 ] concat K 
+; N 1999 890 M 2011 886 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2011 886 M 2023 881 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2023 881 M 2035 877 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2035 877 M 2047 873 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2047 873 M 2059 869 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2059 869 M 2071 865 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2071 865 M 2083 862 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2083 862 M 2095 858 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2095 858 M 2107 854 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2107 854 M 2119 850 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2119 850 M 2131 846 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2131 846 M 2143 843 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2143 843 M 2155 839 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2155 839 M 2167 835 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2167 835 M 2179 832 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2179 832 M 2191 828 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2191 828 M 2203 825 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2203 825 M 2215 821 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2215 821 M 2227 818 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2227 818 M 2239 814 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2239 814 M 2252 811 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2252 811 M 2264 807 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2264 807 M 2276 804 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2276 804 M 2288 801 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2288 801 M 2300 797 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2300 797 M 2312 794 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2312 794 M 2324 791 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2324 791 M 2336 788 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2336 788 M 2348 784 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2348 784 M 2360 781 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2360 781 M 2372 778 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2372 778 M 2384 775 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2384 775 M 2396 772 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2396 772 M 2408 769 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2408 769 M 2420 766 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2420 766 M 2432 763 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2432 763 M 2444 760 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2444 760 M 2456 757 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2456 757 M 2468 754 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2468 754 M 2480 751 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2480 751 M 2492 749 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2492 749 M 2504 746 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2504 746 M 2516 743 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2516 743 M 2528 740 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2528 740 M 2540 738 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2540 738 M 2552 735 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2552 735 M 2564 732 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2564 732 M 2576 730 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2576 730 M 2588 727 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2588 727 M 2600 725 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2600 725 M 2612 722 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2612 722 M 2624 720 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2624 720 M 2636 717 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2636 717 M 2648 715 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2648 715 M 2661 712 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2661 712 M 2673 710 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2673 710 M 2685 708 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2685 708 M 2697 705 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2697 705 M 2709 703 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2709 703 M 2721 701 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2721 701 M 2733 698 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2733 698 M 2745 696 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2745 696 M 2757 694 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2757 694 M 2769 692 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2769 692 M 2781 690 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2781 690 M 2793 688 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2793 688 M 2805 685 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2805 685 M 2817 683 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2817 683 M 2829 681 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2829 681 M 2841 679 I : [ 1 0 0 1 162 237 ] concat K 
+; N 2841 679 M 2853 677 I : [ 1 0 0 1 162 237 ] concat K 
+; : 434 1910 22 19 rc N 425 1927 M 442 1910 I 455 1911 I 438 1928 I C 
+0 0 0 1 scol  O ; N 482 1872 M 500 1856 I 501 1869 I 483 1885 I C 
+0 0 0 1 scol  O N 530 1828 M 547 1811 I 560 1812 I 543 1829 I C 
+ O N 587 1773 M 604 1757 I 605 1770 I 588 1786 I C 
+ O N 639 1724 M 657 1707 I 658 1720 I 640 1737 I C 
+ O N 692 1674 M 709 1658 I 710 1671 I 693 1687 I C 
+ O N 739 1630 M 756 1613 I 769 1614 I 752 1631 I C 
+ O N 796 1575 M 814 1559 I 815 1572 I 797 1588 I C 
+ O 1 0 1 1 scol 4 Lw : 434 1910 29 31 rc N 459 1925 M 459 1918 453 1913 446 1913 -c 439 1913 434 1918 434 1925 -c 434 1932 439 1938 446 1938 -c 453 1938 459 1932 459 1925 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; ; N 471 1912 M 471 1905 465 1900 458 1900 -c 451 1900 446 1905 446 1912 -c 446 1919 451 1925 458 1925 -c 465 1925 471 1919 471 1912 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 483 1900 M 483 1893 477 1888 470 1888 -c 463 1888 458 1893 458 1900 -c 458 1907 463 1913 470 1913 -c 477 1913 483 1907 483 1900 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 495 1888 M 495 1881 489 1876 482 1876 -c 475 1876 470 1881 470 1888 -c 470 1895 475 1901 482 1901 -c 489 1901 495 1895 495 1888 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 507 1875 M 507 1868 501 1863 494 1863 -c 487 1863 482 1868 482 1875 -c 482 1882 487 1888 494 1888 -c 501 1888 507 1882 507 1875 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 519 1863 M 519 1856 513 1851 506 1851 -c 499 1851 494 1856 494 1863 -c 494 1870 499 1876 506 1876 -c 513 1876 519 1870 519 1863 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 531 1851 M 531 1844 525 1839 518 1839 -c 511 1839 506 1844 506 1851 -c 506 1858 511 1864 518 1864 -c 525 1864 531 1858 531 1851 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 543 1838 M 543 1831 537 1826 530 1826 -c 523 1826 518 1831 518 1838 -c 518 1845 523 1851 530 1851 -c 537 1851 543 1845 543 1838 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 555 1826 M 555 1819 549 1814 542 1814 -c 535 1814 530 1819 530 1826 -c 530 1833 535 1839 542 1839 -c 549 1839 555 1833 555 1826 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 567 1814 M 567 1807 561 1802 554 1802 -c 547 1802 542 1807 542 1814 -c 542 1821 547 1827 554 1827 -c 561 1827 567 1821 567 1814 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 579 1802 M 579 1795 573 1790 566 1790 -c 559 1790 554 1795 554 1802 -c 554 1809 559 1815 566 1815 -c 573 1815 579 1809 579 1802 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 591 1790 M 591 1783 585 1778 578 1778 -c 571 1778 566 1783 566 1790 -c 566 1797 571 1803 578 1803 -c 585 1803 591 1797 591 1790 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 603 1778 M 603 1771 597 1766 590 1766 -c 583 1766 578 1771 578 1778 -c 578 1785 583 1791 590 1791 -c 597 1791 603 1785 603 1778 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 615 1766 M 615 1759 609 1754 602 1754 -c 595 1754 590 1759 590 1766 -c 590 1773 595 1779 602 1779 -c 609 1779 615 1773 615 1766 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 627 1754 M 627 1747 621 1742 614 1742 -c 607 1742 602 1747 602 1754 -c 602 1761 607 1767 614 1767 -c 621 1767 627 1761 627 1754 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 639 1742 M 639 1735 633 1730 626 1730 -c 619 1730 614 1735 614 1742 -c 614 1749 619 1755 626 1755 -c 633 1755 639 1749 639 1742 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 651 1730 M 651 1723 645 1718 638 1718 -c 631 1718 626 1723 626 1730 -c 626 1737 631 1743 638 1743 -c 645 1743 651 1737 651 1730 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 664 1718 M 664 1711 658 1706 651 1706 -c 644 1706 639 1711 639 1718 -c 639 1725 644 1731 651 1731 -c 658 1731 664 1725 664 1718 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 676 1707 M 676 1700 670 1695 663 1695 -c 656 1695 651 1700 651 1707 -c 651 1714 656 1720 663 1720 -c 670 1720 676 1714 676 1707 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 688 1696 M 688 1689 682 1684 675 1684 -c 668 1684 663 1689 663 1696 -c 663 1703 668 1709 675 1709 -c 682 1709 688 1703 688 1696 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 700 1684 M 700 1677 694 1672 687 1672 -c 680 1672 675 1677 675 1684 -c 675 1691 680 1697 687 1697 -c 694 1697 700 1691 700 1684 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; N 712 1673 M 712 1666 706 1661 699 1661 -c 692 1661 687 1666 687 1673 -c 687 1680 692 1686 699 1686 -c 706 1686 712 1680 712 1673 -c C 
+:  O ; : [ 1 0 0 1 162 237 ] concat K 
+; 0 0 0 1 scol Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Encoding256 5.0 0
+/CharCol256Encoding[/.notdef/breve/caron/dotaccent/dotlessi/fi/fl/fraction
+/hungarumlaut/Lslash/lslash/minus/ogonek/ring/Zcaron/zcaron/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle/parenleft/parenright/asterisk/plus/comma
+/hyphen/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S
+/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/asciicircum/underscore/grave
+/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright
+/asciitilde/.notdef/Euro/.notdef/quotesinglbase/florin/quotedblbase/ellipsis
+/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef
+/.notdef/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis/.notdef/exclamdown/cent/sterling/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/.notdef/registered
+/macron/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph
+/periodcentered/cedilla/onesuperior/ordmasculine/guillemotright/onequarter
+/onehalf/threequarters/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis]def EncodeDict/256 CharCol256Encoding put
+%%EndResource
+end reinitialize
+
+%%IncludeResource: font Helvetica-Bold
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_Euro_L2 5.0 0
+/UseT3EuroFont{/currentdistillerparams where{pop currentdistillerparams
+/CoreDistVersion get 4000 le}{false}ifelse}bind def/NewEuroT3Font?{dup/FontType
+get 3 eq{dup/EuroFont known exch/BaseFont known and}{pop false}ifelse}bind def
+/T1FontHasEuro{dup/CharStrings known not{dup NewEuroT3Font?{dup/EuroGlyphName
+get exch/EuroFont get/CharStrings get exch known{true}{false}ifelse}{pop false}
+ifelse}{dup/FontType get 1 eq{/CharStrings get/Euro known}{dup/InfoDict known{
+/InfoDict get/Euro known}{/CharStrings get/Euro known}ifelse}ifelse}ifelse}bind
+def/FontHasEuro{findfont dup/Blend known{pop true}{T1FontHasEuro}ifelse}bind
+def/EuroEncodingIdx 1 def/EuroFontHdr{12 dict begin/FontInfo 10 dict dup begin
+/version(001.000)readonly def/Notice(Copyright (c)1999 Adobe Systems
+Incorporated. All Rights Reserved.)readonly def/FullName(Euro)readonly def
+/FamilyName(Euro)readonly def/Weight(Regular)readonly def/isFixedPitch false
+def/ItalicAngle 0 def/UnderlinePosition -100 def/UnderlineThickness 50 def end
+readonly def/FontName/Euro def/Encoding 256 array 0 1 255{1 index exch/.notdef
+put}for def/PaintType 0 def/FontType 1 def/FontMatrix[0.001 0 0 0.001 0 0]def
+/FontBBox{-25 -23 1500 804}readonly def currentdict end dup/Private 20 dict dup
+begin/ND{def}def/NP{put}def/lenIV -1 def/RD{string currentfile exch
+readhexstring pop}def/-|{string currentfile exch readstring pop}executeonly def
+/|-{def}executeonly def/|{put}executeonly def/BlueValues[-20 0 706 736 547 572]
+|-/OtherBlues[-211 -203]|-/BlueScale 0.0312917 def/MinFeature{16 16}|-/StdHW
+[60]|-/StdVW[71]|-/ForceBold false def/password 5839 def/Erode{8.5 dup 3 -1
+roll 0.1 mul exch 0.5 sub mul cvi sub dup mul 71 0 dtransform dup mul exch dup
+mul add le{pop pop 1.0 1.0}{pop pop 0.0 1.5}ifelse}def/OtherSubrs[{}{}{}
+{systemdict/internaldict known not{pop 3}{1183615869 systemdict/internaldict
+get exec dup/startlock known{/startlock get exec}{dup/strtlck known{/strtlck
+get exec}{pop 3}ifelse}ifelse}ifelse}executeonly]|-/Subrs 5 array dup 0
+<8E8B0C100C110C110C210B>put dup 1<8B8C0C100B>put dup 2<8B8D0C100B>put dup 3<0B>
+put dup 4<8E8C8E0C100C110A0B>put |- 2 index/CharStrings 256 dict dup begin
+/.notdef<8b8b0d0e>def end end put put dup/FontName get exch definefont pop}bind
+def/AddEuroGlyph{2 index exch EuroEncodingIdx 1 eq{EuroFontHdr}if systemdict
+begin/Euro findfont dup dup/Encoding get 5 1 roll/Private get begin/CharStrings
+get dup 3 index known{pop pop pop pop end end}{begin 1 index exch def end end
+end EuroEncodingIdx dup 1 add/EuroEncodingIdx exch def exch put}ifelse}bind def
+/GetNewXUID{currentdict/XUID known{[7 XUID aload pop]true}{currentdict/UniqueID
+known{[7 UniqueID]true}{false}ifelse}ifelse}bind def/BuildT3EuroFont{exch 16
+dict begin dup/FontName exch def findfont dup/Encoding get/Encoding exch def
+dup length 1 add dict copy dup/FID undef begin dup dup/FontName exch def
+/Encoding 256 array 0 1 255{1 index exch/.notdef put}for def GetNewXUID{/XUID
+exch def}if currentdict end definefont pop/BaseFont exch findfont 1000
+scalefont def/EuroFont exch findfont 1000 scalefont def pop/EuroGlyphName exch
+def/FontType 3 def/FontMatrix[.001 0 0 .001 0 0]def/FontBBox BaseFont/FontBBox
+get def/Char 1 string def/BuildChar{exch dup begin/Encoding get 1 index get
+/Euro eq{BaseFont T1FontHasEuro{false}{true}ifelse}{false}ifelse{EuroFont
+setfont pop userdict/Idx 0 put EuroFont/Encoding get{EuroGlyphName eq{exit}
+{userdict/Idx Idx 1 add put}ifelse}forall userdict/Idx get}{dup dup Encoding
+exch get BaseFont/Encoding get 3 1 roll put BaseFont setfont}ifelse Char 0 3 -1
+roll put Char stringwidth newpath 0 0 moveto Char true charpath flattenpath
+pathbbox setcachedevice 0 0 moveto Char show end}bind def currentdict end dup
+/FontName get exch definefont pop}bind def/AddEuroToT1Font{dup findfont dup
+length 10 add dict copy dup/FID undef begin/EuroFont 3 -1 roll findfont 1000
+scalefont def CharStrings dup length 1 add dict copy begin/Euro{EuroFont
+setfont pop EuroGBBox aload pop setcachedevice 0 0 moveto EuroGName glyphshow}
+bind def currentdict end/CharStrings exch def GetNewXUID{/XUID exch def}if 3 1
+roll/EuroGBBox exch def/EuroGName exch def currentdict end definefont pop}bind
+def/BuildNewFont{UseT3EuroFont{BuildT3EuroFont}{pop AddEuroToT1Font}ifelse}bind
+def/UseObliqueEuro{findfont/FontMatrix get dup 2 get 0 eq exch dup 0 get exch 3
+get eq and UseT3EuroFont or}bind def
+%%EndResource
+end reinitialize
+7500 VM?
+/Helvetica-Bold FontHasEuro not
+{
+/Euro.Helvetica-Bold
+ [556 0 12 -19 563 710 ] 
+<97F8C00DDBF7240378F70401F774EA01F803EA01F8EAF70401F8BBF9011571B141BE278B
+08FB278B303173FB32085906642C05DB0676078B828C828B82086206632C05E506A8FB3A
+EC3EF71B8B08C18BC192B9A908F71407676C54754C8B083B8B6ED483C508F72C06B3EA05
+FB5E06BB07F77106B3EA05FB91069AE5B2B9CC8B08C98BB26FA17408A07691828F830809
+0E>
+AddEuroGlyph
+/Euro /Helvetica-Bold /Helvetica-Bold-Copy BuildNewFont
+} if
+F /F0 0 /256 T /Helvetica-Bold mF 
+/F0S32 F0 [50 0 0 -50 0 0 ] mFS
+F0S32 Ji 
+821 435 M (hf_ids_vds_multitest_TFT_96_9_X1_Y5@BR_Wafer_9_E1538-001)[30 17 28 14 31 28 28 27 31 28 28 44 30 14 17 14 17 28 28 17 28 32 31 32 28 28 28 28 28 28 33 28
+28 33 28 49 36 36 28 47 28 17 28 19 28 28 28 33 28 28 28 28 17 28 28  0]xS 
+
+%%IncludeResource: font Helvetica
+7500 VM?
+/Helvetica FontHasEuro not
+{
+/Euro.Helvetica
+ [556 0 24 -19 541 703 ] 
+<A3F8C00DD4E90378DA01F779D301F808D301F904DA01F899F908156CB447AD338B08FB2D
+8B372B7BFB37085806724305D30644075B06724305DA06A0FB36E035F7218B08E08BCDB7
+939208EE077A71405E418B083F8B4CCE84F108F76506A3D305FB8306D207F79C06A3D305
+FBB10692E2B7E8F28B08E08BBE62A45A08090E>
+AddEuroGlyph
+/Euro /Helvetica /Helvetica-Copy BuildNewFont
+} if
+F /F1 0 /256 T /Helvetica mF 
+/F1S29 F1 [41 0 0 -41 0 0 ] mFS
+F1S29 Ji 
+261 1941 M (0.0E+00)[23 11 23 27 24 23  0]xS 
+271 1655 M (5.0E-05)[23 11 23 27 14 23  0]xS 
+271 1369 M (1.0E-04)[23 11 23 27 14 23  0]xS 
+271 1082 M (1.5E-04)[23 11 23 27 14 23  0]xS 
+271 796 M (2.0E-04)[23 11 23 27 14 23  0]xS 
+271 510 M (2.5E-04)[23 11 23 27 14 23  0]xS 
+436 2002 M (0)S 
+677 2002 M (2)S 
+917 2002 M (4)S 
+1158 2002 M (6)S 
+1398 2002 M (8)S 
+1627 2002 M (10)[23  0]xS 
+1868 2002 M (12)[23  0]xS 
+2108 2002 M (14)[23  0]xS 
+2349 2002 M (16)[23  0]xS 
+2589 2002 M (18)[23  0]xS 
+2830 2002 M (20)[23  0]xS 
+/F0S29 F0 [41 0 0 -41 0 0 ] mFS
+F0S29 Ji 
+1541 2072 M (VDS \(volts\))[27 30 27 11 14 23 25 11 14 23  0]xS 
+/F0S00IFFFFFFD7 F0 [0 -41 -41 0 0 0 ] mFS
+F0S00IFFFFFFD7 Ji 
+232 1307 M (ID \(Amps\))[-11 -30 -11 -14 -30 -36 -25 -23  0]yS 
+F0S32 Ji 
+1463 326 M (IDS vs. VDS)[13 36 33 14 27 28 14 14 33 36  0]xS 
+30000 VM?
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_WinNT_Compat 5.0 0
+userdict/Pscript_WinNT_Compat 19 dict dup begin/bd{bind def}bind def/ld{load
+def}bd/$x matrix def/ANSIVec[16#0/grave 16#1/acute 16#2/circumflex 16#3/tilde
+16#4/macron 16#5/breve 16#6/dotaccent 16#7/dieresis 16#8/ring 16#9/cedilla 16#A
+/hungarumlaut 16#B/ogonek 16#C/caron 16#D/dotlessi 16#27/quotesingle 16#60
+/grave 16#7C/bar 16#82/quotesinglbase 16#83/florin 16#84/quotedblbase 16#85
+/ellipsis 16#86/dagger 16#87/daggerdbl 16#88/circumflex 16#89/perthousand 16#8A
+/Scaron 16#8B/guilsinglleft 16#8C/OE 16#91/quoteleft 16#92/quoteright 16#93
+/quotedblleft 16#94/quotedblright 16#95/bullet 16#96/endash 16#97/emdash 16#98
+/tilde 16#99/trademark 16#9A/scaron 16#9B/guilsinglright 16#9C/oe 16#9F
+/Ydieresis 16#A0/space 16#A1/exclamdown 16#A4/currency 16#A5/yen 16#A6
+/brokenbar 16#A7/section 16#A8/dieresis 16#A9/copyright 16#AA/ordfeminine 16#AB
+/guillemotleft 16#AC/logicalnot 16#AD/hyphen 16#AE/registered 16#AF/macron
+16#B0/degree 16#B1/plusminus 16#B2/twosuperior 16#B3/threesuperior 16#B4/acute
+16#B5/mu 16#B6/paragraph 16#B7/periodcentered 16#B8/cedilla 16#B9/onesuperior
+16#BA/ordmasculine 16#BB/guillemotright 16#BC/onequarter 16#BD/onehalf 16#BE
+/threequarters 16#BF/questiondown 16#C0/Agrave 16#C1/Aacute 16#C2/Acircumflex
+16#C3/Atilde 16#C4/Adieresis 16#C5/Aring 16#C6/AE 16#C7/Ccedilla 16#C8/Egrave
+16#C9/Eacute 16#CA/Ecircumflex 16#CB/Edieresis 16#CC/Igrave 16#CD/Iacute 16#CE
+/Icircumflex 16#CF/Idieresis 16#D0/Eth 16#D1/Ntilde 16#D2/Ograve 16#D3/Oacute
+16#D4/Ocircumflex 16#D5/Otilde 16#D6/Odieresis 16#D7/multiply 16#D8/Oslash
+16#D9/Ugrave 16#DA/Uacute 16#DB/Ucircumflex 16#DC/Udieresis 16#DD/Yacute 16#DE
+/Thorn 16#DF/germandbls 16#E0/agrave 16#E1/aacute 16#E2/acircumflex 16#E3
+/atilde 16#E4/adieresis 16#E5/aring 16#E6/ae 16#E7/ccedilla 16#E8/egrave 16#E9
+/eacute 16#EA/ecircumflex 16#EB/edieresis 16#EC/igrave 16#ED/iacute 16#EE
+/icircumflex 16#EF/idieresis 16#F0/eth 16#F1/ntilde 16#F2/ograve 16#F3/oacute
+16#F4/ocircumflex 16#F5/otilde 16#F6/odieresis 16#F7/divide 16#F8/oslash 16#F9
+/ugrave 16#FA/uacute 16#FB/ucircumflex 16#FC/udieresis 16#FD/yacute 16#FE/thorn
+16#FF/ydieresis]def currentdict{dup type/operatortype eq{[exch]cvx def}{pop
+pop}ifelse}forall/initialize{currentdict exch begin begin}bind def/terminate{
+/@FL where not{pop end end}{pop}ifelse}bind def/suspend/terminate load def
+/resume/initialize load def/RS{/pagesave where{pop pagesave restore}{$x matrix
+invertmatrix concat}ifelse}def/SS{/pagesave save def}def/CB{pop pop pop pop}def
+/B{pop pop pop pop}def/:/gsave load def/;/grestore load def/N/newpath load def
+end put
+%%EndResource
+end reinitialize
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+/languagelevel where {pop languagelevel} {1} ifelse
+2 ge dup {currentglobal exch true setglobal globaldict} {userdict} ifelse
+/GpPBeg1 {
+    gsave initclip
+    16 dict begin
+    /c {curveto} def /l {lineto} def /m {moveto} def
+    /rc {rcurveto} def /rl {rlineto} def
+    /NP {newpath} def /CP {closepath} def /SC {setrgbcolor} def
+    /GSE {end grestore} def
+} put
+{setglobal} if
+GpPBeg1
+1 1 1 SC
+NP 507 582 m 904 582 l 904 648 l 507 648 l CP 
+eofill
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol /F0S2A F0 [42 0 0 -42 0 0 ] mFS
+F0S2A Ji 
+517 626 M (Drain Offset: 1.51v)[30 16 23 12 26 12 33 14 14 23 23 14 14 12 23 12 23 23  0]xS 
+30000 VM?
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+/languagelevel where {pop languagelevel} {1} ifelse
+2 ge dup {currentglobal exch true setglobal globaldict} {userdict} ifelse
+/GpPBeg1 {
+    gsave initclip
+    16 dict begin
+    /c {curveto} def /l {lineto} def /m {moveto} def
+    /rc {rcurveto} def /rl {rlineto} def
+    /NP {newpath} def /CP {closepath} def /SC {setrgbcolor} def
+    /GSE {end grestore} def
+} put
+{setglobal} if
+GpPBeg1
+1 1 1 SC
+NP 507 667 m 1166 667 l 1166 734 l 507 734 l CP 
+eofill
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 517 711 M (Drain Resistance: 4.87E+04 )[30 16 23 12 26 12 30 23 23 12 23 14 23 26 23 23 14 12 23 12 23 23 28 25 23 23  0]xS 
+: 517 726 112 4 rc 517 765 M (ohms)[26 26 37  0]xS 
+; 30000 VM?
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+/languagelevel where {pop languagelevel} {1} ifelse
+2 ge dup {currentglobal exch true setglobal globaldict} {userdict} ifelse
+/GpPBeg1 {
+    gsave initclip
+    16 dict begin
+    /c {curveto} def /l {lineto} def /m {moveto} def
+    /rc {rcurveto} def /rl {rlineto} def
+    /NP {newpath} def /CP {closepath} def /SC {setrgbcolor} def
+    /GSE {end grestore} def
+} put
+{setglobal} if
+GpPBeg1
+1 1 1 SC
+NP 507 753 m 1181 753 l 1181 819 l 507 819 l CP 
+eofill
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 517 797 M (Drain Intercept: -0.085v)[30 16 23 12 26 12 12 26 14 23 16 23 23 26 14 14 12 14 23 12 23 23 23  0]xS 
+LH
+(%%[Page: 1]%%) = 
+%%PageTrailer
+
+%%Trailer
+%%BoundingBox: 15 15 598 777
+%%DocumentNeededResources: 
+%%+ font Helvetica-Bold
+%%+ font Helvetica
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_ErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L2 5.0 0
+%%+ procset Pscript_Text 5.0 0
+%%+ procset Pscript_Encoding256 5.0 0
+%%+ procset Pscript_Win_Euro_L2 5.0 0
+%%+ procset Pscript_WinNT_Compat 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+ehsave restore
+%%Pages: 1
+(%%[LastPage]%%) = 
+%%EOF
+
