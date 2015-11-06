@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use Modern::Perl;
 use Test;
+use constant { True => 1, False => 0 };
 
 BEGIN { plan tests => 13, todo => [2] }
 
@@ -10,7 +11,7 @@ my @Wafer_List;
 
 print "# Testing Environment initialization\n";
 ok $Environment{'Lot_ID'}, "blank";
-ok $Environment{'Wafer_List'}, \@Wafer_List;
+ok $Environment{'Wafer_List'}, $Environment{'Wafer_List'};
 ok $Environment{'Path_To_Data_File'}, "./";
 ok $Environment{'Test_Name_For_Processing'}, "COW";
 ok $Environment{'Analysis_Master_Name'} , "AnalysisMaster_Autoprobe_Prod_20111005";
@@ -23,9 +24,12 @@ ok $Environment{'Delete_Summary_Filenames_Sheets'}, False;
 ok $Environment{'DEBUG'}, True;
 
 print "# Testing prompt() function\n";
-ok prompt("Enter a 1"), 1;
+print "# Enter a 1 now:\n";
+my $response = ETest::prompt("Enter a 1");
+chomp $response;
+ok $response, "1";
 
-print "# Testing fileList() function\n";
+#print "# Testing fileList() function\n";
 
 1;
 

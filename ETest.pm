@@ -1,10 +1,14 @@
-#!/usr/bin/env perl
 package ETest;
+require Exporter;
+@ISA = qw(Exporter);
+@EXPORT_OK = qw(%Environment);
+ our @EXPORT = qw(%Environment);
+
 use Modern::Perl;
 use PDL;
 use File::Find;
 use Spreadsheet::ParseExcel;
-use parent 'Exporter';
+use constant { True => 1, False => 0 };
 
 # local vars
 my $Append = False;
@@ -18,6 +22,7 @@ my $Process_Reverse_Sweeps = True;
 my $Print_Graphs = True;
 my $Print_Graphs_To_File = True;
 my $Delete_Summary_Filename_Sheets = False;
+
 
 # Global vars
 our %Environment = (
@@ -33,10 +38,8 @@ our %Environment = (
 	Print_Graphs_To_File => $Print_Graphs_To_File,
 	Delete_Summary_Filenames_Sheets => $Delete_Summary_Filename_Sheets,
 	DEBUG => True);
-
-our @EXPORT = qw(%Environment);
-
-sub ProcessTFTAutoprobeData() {
+	
+sub ProcessTFTAutoprobeData {
 	my $Lot_ID = $Environment{'Lot_ID'};
 	my @WaferList = $Environment{'Wafer_List'};
 	my $Path_To_Data_File = $Environment{'Path_To_Data_File'};
@@ -145,11 +148,115 @@ sub ProcessTFTAutoprobeData() {
 		# Now that we have a path to data file it's time to process if and generate a summary file.
 		# Need to check if there is a module for generating Excel spreadsheets from an array of data. 
 		find(\&fileList, $currentPath);
+	}
 }
 
-sub fileList() {
+sub ProcessTFTPrincetonData {
+	if ($Environment{'DEBUG'} == True) {
+		say "called Process TFT Princeton Data";
+	}
+}
+
+sub setPrintGraphs {
+	if ($Environment{'DEBUG'} == True) {
+		say "called Print Graphs";
+	}
+}
+
+sub setPrintGraphsToFile {
+	if ($Environment{'DEBUG'} == True) {
+		say "called Print Graphs to File";
+	}
+}
+
+sub ProcessTFTData {
+	if ($Environment{'DEBUG'} == True) {
+		say "called Process TFT Data";
+	}
+}
+
+sub setDeleteSummaryFilenamesSheets {
+	if ($Environment{'DEBUG'} == True) {
+		say "called Delete Summary Filenames Sheets";
+	}
+}
+
+sub setProcessReverseSweeps {
+	if ($Environment{'DEBUG'} == True) {
+		say "called Process Reverse Sweeps";
+	}
+}
+
+sub setAppendDataToSummary {
+	my $continue = True;
+	my $choice;
+	if ($continue) {
+		$choice = prompt("Append data to summary? (y/n)");
+		if ($choice =~ /y|yes|Y|YES/) {
+			say "Setting Append to True";
+			$Environment{'Append'} = True;
+			$continue = False;
+		} else {
+			$continue = False;
+			say "Setting Append to False";
+			$Environment{'Append'} = False;
+		}
+	}
+	
+	if ($Environment{'DEBUG'} == True) {
+		say "called Append Data to Summary";
+		say "Append: ", $Environment{'Append'};
+	}
+}
+
+sub setPathToLot {
+	my $continue = True;
+	my $fileName;
+	my $response;
+	if ($continue) {
+		$fileName = prompt("Enter path to lot: ");
+		$response = prompt("Set $fileName as new path to lot? (y/n)");
+		if ($response =~ /y|yes|Y|YES/) {
+			$Environment{'Path_To_Data_File'} = $fileName;
+			$continue = False;
+		} else {
+			$continue = True;
+		}
+	}
+	
+	if ($Environment{'DEBUG'} == True) {
+		say "called setPathToLot";
+		say "Path_To_Data_File: ", $Environment{'Path_To_Data_File'};
+	}
+}
+
+sub setAnalysisMasterFileName {
+	my $continue = True;
+	my $fileName;
+	my $response;
+	if ($continue) {
+
+		$fileName = prompt("Enter analysismaser filename: ");
+		$response = prompt("Set $fileName as new AnalysisMaster filename? (y/n)");
+		if ($response =~ /y|yes|Y|YES/) {
+			$continue = False;
+			$Environment{'Analysis_Master_Name'} = $fileName;
+		} else {
+			$continue = True;
+		}
+	}
+	
+	if ($Environment{'DEBUG'} == True) {
+		say "called setAnalysisMasterFileName";
+		say "Analysis_Master_Name: ", $Environment{'Analysis_Master_Name'};
+	}
+}
+
+sub fileList {
 	my $fileName = $_;
 	my $f;
+	my @header; 
+	my @data;
 	
 	# TODO:
 	# Look for /ids_vds/ data files and parse them here.
@@ -157,13 +264,23 @@ sub fileList() {
 	if ($fileName =~ /hf_ids_vds/) {
 		open($f, "<$fileName");
 		seek($f,0,0);
+		@header = [split(/\t/,<$f>)];
+		foreach my $line (<$f>) {
+			push(@data,[split(/\t/,$line)]);
+		}
 		
-		
-	
+		if ($Environment{'DEBUG'} == True) {
+			say "currentPath: ", $File::Find::name;
+			say "data length: ", $#data;
+			my $pdlData = pdl(@data);
+			say "header: ", @header;
+			print($pdlData);
+		}
+	}
 }
 
-sub prompt() {
-	my $inStr = shift;
+sub prompt {
+	my $inStr = @_;
 
 	my $input;
 	print($inStr, "\n");
@@ -171,7 +288,4 @@ sub prompt() {
 	return($input);
 }
 	
-
 1;
-
-	
