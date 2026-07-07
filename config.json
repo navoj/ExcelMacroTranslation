@@ -1,0 +1,7 @@
+{
+  "data_dir": "t/E1538-001",
+  "wafers": ["Wafer_1"],
+  "eps": 3.9,
+  "tox": 2000,
+  "charts": true
+}
