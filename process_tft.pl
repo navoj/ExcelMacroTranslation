@@ -7,16 +7,24 @@
 # Summary (CSV + XLSX) and renders the per-device diagnostic charts
 # (TFTReport.pm / gnuplot).
 #
+# By default the tree under --lot is searched recursively: every directory that
+# contains hf_ids_* device files is processed as a wafer, so one invocation can
+# cover a single wafer, a lot of Wafer_* subdirectories, or a whole tree of
+# lots and wafers nested to any depth.
+#
 # Usage:
-#   process_tft.pl --lot DIR [--wafer W]... [options]
+#   process_tft.pl --lot DIR [options]                # recurse over DIR
+#   process_tft.pl --lot LOTDIR --wafer W [--wafer W2] # named wafers only
 #   process_tft.pl -c config.json
 #
 # Options:
-#   --lot DIR        Path to the lot directory (contains Wafer_* subdirs), or a
-#                    single wafer directory holding hf_ids_* files.
-#   --wafer NAME     Wafer subdirectory to process (repeatable). Default: all
-#                    Wafer_* subdirectories found (or the --lot dir itself).
-#   --out DIR        Output directory for the Summary (default: the wafer dir).
+#   --lot DIR        Root directory to search (a wafer dir, a lot dir, or a
+#                    parent folder of many lots/wafers).
+#   --wafer NAME     Process only this subdirectory of --lot (repeatable);
+#                    disables the recursive search.
+#   --[no-]recursive Search the whole tree under --lot (default: on).
+#   --out DIR        Write results here instead of next to each wafer's data;
+#                    each wafer gets its own <Lot>_Wafer_<W>/ subdirectory.
 #   --eps VALUE      Gate-dielectric relative permittivity (default 3.9, SiO2).
 #   --tox VALUE      Gate-dielectric thickness in angstrom (default 2000).
 #   --no-charts      Skip chart generation.
@@ -34,7 +42,7 @@ use POSIX qw(strftime);
 use TFTAnalysis;
 use TFTReport;
 
-my %opt = (eps => 3.9, tox => 2000, charts => 1);
+my %opt = (eps => 3.9, tox => 2000, charts => 1, recursive => 1);
 my @wafers;
 my $config;
 GetOptions(
@@ -44,35 +52,48 @@ GetOptions(
     'eps=f'      => \$opt{eps},
     'tox=f'      => \$opt{tox},
     'charts!'    => \$opt{charts},
+    'recursive!' => \$opt{recursive},
     'config|c=s' => \$config,
 ) or die "See --help / header for usage.\n";
 
-# Optional JSON config (data_dir, wafers, eps, tox, charts).
+# Optional JSON config (data_dir, wafers, eps, tox, charts, recursive).
 if ($config) {
     require JSON::PP;
     open my $fh, '<', $config or die "config $config: $!";
     my $cfg = JSON::PP::decode_json(do { local $/; <$fh> });
-    $opt{lot}    //= $cfg->{data_dir} // $cfg->{lot};
-    $opt{eps}    = $cfg->{eps} if defined $cfg->{eps};
-    $opt{tox}    = $cfg->{tox} if defined $cfg->{tox};
-    $opt{charts} = $cfg->{charts} if defined $cfg->{charts};
-    @wafers      = @{ $cfg->{wafers} } if $cfg->{wafers};
+    $opt{lot}       //= $cfg->{data_dir} // $cfg->{lot};
+    $opt{eps}       = $cfg->{eps} if defined $cfg->{eps};
+    $opt{tox}       = $cfg->{tox} if defined $cfg->{tox};
+    $opt{charts}    = $cfg->{charts} if defined $cfg->{charts};
+    $opt{recursive} = $cfg->{recursive} if defined $cfg->{recursive};
+    @wafers         = @{ $cfg->{wafers} } if $cfg->{wafers};
 }
 
 $opt{lot} or die "No lot directory given (use --lot DIR or -c config.json).\n";
 -d $opt{lot} or die "Lot directory not found: $opt{lot}\n";
 
-# Determine the list of wafer directories to process.
+# Determine the list of wafer directories to process. Each is a directory that
+# directly contains the hf_ids_* measurement files. With --recursive (default)
+# the whole tree under --lot is searched, so a single root may hold one wafer,
+# a lot of Wafer_* subdirectories, or many lots each with their own wafers.
 my @wdirs;
 if (@wafers) {
     @wdirs = map { "$opt{lot}/$_" } @wafers;
 }
+elsif ($opt{recursive}) {
+    @wdirs = find_data_dirs($opt{lot});
+    @wdirs = ($opt{lot}) unless @wdirs;
+}
 elsif (my @sub = _subdirs($opt{lot}, qr/^Wafer_/i)) {
-    @wdirs = @sub;
+    @wdirs = @sub;    # one level only (--no-recursive)
 }
 else {
-    @wdirs = ($opt{lot});    # the lot dir itself holds the data files
+    @wdirs = ($opt{lot});
 }
+
+unless (@wdirs) { die "No wafer data found under $opt{lot}\n"; }
+say sprintf("Found %d wafer director%s under %s",
+    scalar @wdirs, (@wdirs == 1 ? 'y' : 'ies'), $opt{lot});
 
 for my $wdir (@wdirs) {
     -d $wdir or do { warn "skip (not found): $wdir\n"; next };
@@ -83,11 +104,15 @@ for my $wdir (@wdirs) {
 
 sub process_wafer {
     my ($wdir) = @_;
-    my $outdir = $opt{out} || $wdir;
-    make_path($outdir) unless -d $outdir;
-
     my @devices = discover_devices($wdir);
     unless (@devices) { warn "no TFT device files in $wdir\n"; return; }
+
+    my ($lot, $wafer) = ($devices[0]{Lot}, $devices[0]{Wafer});
+    my $tag = defined $lot ? "${lot}_Wafer_${wafer}" : basename($wdir);
+    # With --out, give each wafer its own subdirectory so Summaries and charts
+    # from different wafers never collide; otherwise write next to the data.
+    my $outdir = $opt{out} ? "$opt{out}/$tag" : $wdir;
+    make_path($outdir) unless -d $outdir;
     say sprintf("Processing %s: %d device(s)", $wdir, scalar @devices);
 
     my @rows;
@@ -119,12 +144,34 @@ sub process_wafer {
         }
     }
 
-    my ($lot, $wafer) = ($devices[0]{Lot}, $devices[0]{Wafer});
-    my $base = defined $lot ? "${lot}_Wafer_${wafer}_Summary" : 'Summary';
-    my $csv = TFTReport::write_summary_csv("$outdir/$base.csv", \@rows);
+    my $csv = TFTReport::write_summary_csv("$outdir/${tag}_Summary.csv", \@rows);
     say "  wrote $csv";
-    my $xlsx = TFTReport::write_summary_xlsx("$outdir/$base.xlsx", \@rows);
+    my $xlsx = TFTReport::write_summary_xlsx("$outdir/${tag}_Summary.xlsx", \@rows);
     say "  wrote $xlsx" if $xlsx;
+}
+
+# Recursively find every directory under $root that holds forward transfer
+# files (hf_ids_vgs_*, excluding the -rev partner). Handles a single wafer
+# directory, a lot of Wafer_* subdirectories, or an entire tree of lots and
+# wafers nested to any depth.
+sub find_data_dirs {
+    my ($root) = @_;
+    my (@found, %seen);
+    my @stack = ($root);
+    while (@stack) {
+        my $d = shift @stack;
+        next if $seen{$d}++;
+        opendir(my $dh, $d) or next;
+        my @entries = grep { $_ ne '.' && $_ ne '..' } readdir $dh;
+        closedir $dh;
+        push @found, $d if grep { /^hf_ids_vgs_/ && !/-rev/ } @entries;
+        for my $e (@entries) {
+            next if $e eq 'charts';    # don't descend into our own output
+            my $p = "$d/$e";
+            push @stack, $p if -d $p;
+        }
+    }
+    return sort @found;
 }
 
 # Find hf_ids_vgs_* files and pair each with its -rev and vds partners.

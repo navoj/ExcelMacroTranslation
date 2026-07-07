@@ -47,16 +47,56 @@ modulation, and the Moyer cubic-fit contact-resistance extrapolation.
 
 ## Usage
 
-```sh
-# Process one wafer, write Summary + charts next to the data:
-perl process_tft.pl --lot t/E1538-001 --wafer Wafer_1 --out ./out
+By default `process_tft.pl` searches the directory given to `--lot`
+**recursively**: any folder that contains `hf_ids_*` device files is treated as
+a wafer. The same command therefore works whether you point it at a single
+wafer, one lot of `Wafer_*` folders, or a whole tree of lots and wafers.
 
-# Process every Wafer_* subdirectory of a lot:
+```sh
+# One wafer directory:
+perl process_tft.pl --lot t/E1538-001/Wafer_1
+
+# One lot (all of its Wafer_* subdirectories):
 perl process_tft.pl --lot /path/to/E1538-001
+
+# A parent folder holding many lots, each with many wafers -> everything found
+# beneath it is processed in one pass:
+perl process_tft.pl --lot /data/autoprobe --out ./results
 
 # Or drive everything from a config file:
 perl process_tft.pl -c config.json --out ./out
 ```
+
+### Recursively processing a folder of subfolders
+
+Point `--lot` at any parent directory and the script walks the entire tree,
+processing every wafer it finds no matter how deeply it is nested — for example:
+
+```
+/data/autoprobe/
+├── E1538-001/
+│   ├── Wafer_1/    ← hf_ids_vgs_*, hf_ids_vgs-rev_*, hf_ids_vds_* ...
+│   └── Wafer_2/
+└── E1607-001/
+    ├── Panel_1/
+    └── Panel_2/
+```
+
+```sh
+# Recurse over the whole tree (recursion is on by default):
+perl process_tft.pl --lot /data/autoprobe --out ./results
+```
+
+- Every directory containing measurement files is analysed as one wafer; the
+  lot and wafer names are taken from the file names, so the folder layout can be
+  anything.
+- With `--out DIR`, each wafer's Summary and `charts/` are written to its own
+  `DIR/<Lot>_Wafer_<W>/` subfolder, so nothing collides across wafers. Without
+  `--out`, results are written next to each wafer's data (as the Excel workflow
+  wrote its `.prn` files).
+- Use `--no-recursive` to search only one level below `--lot` (the classic
+  "lot of `Wafer_*` folders" behaviour), or name specific wafers with one or
+  more `--wafer NAME` options.
 
 Outputs per wafer:
 - `<Lot>_Wafer_<W>_Summary.csv` and `.xlsx` — the 29-column parameter table.
